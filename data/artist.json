@@ -1,0 +1,23 @@
+{
+    "artists": [
+        {
+            "name": "BONES",
+            "path": "BONES",
+            "albums": [
+                {
+                    "title": "SoftwareUpdate2.0",
+                    "year": 2025,
+                    "art": "SoftwareUpdate2.0.jpg",
+                    "links": {
+                        "spotify": "#",
+                        "appleMusic": "#",
+                        "soundcloud": "#"
+                    }
+                }
+                    }
+                }
+            ]
+        }
+        // Add other artists here
+    ]
+}
