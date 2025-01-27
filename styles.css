@@ -28,9 +28,11 @@ body {
     font-size: 4rem;
     color: var(--gold);
     text-shadow: 2px 2px 4px rgba(255, 215, 0, 0.5);
-    margin-bottom: 1rem;
+    margin: 0 auto 1rem auto;
     letter-spacing: 2px;
     text-align: center;
+    display: block;
+    width: 100%;
 }
 
 .title-underline {
