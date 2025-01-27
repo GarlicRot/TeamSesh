@@ -1,27 +1,44 @@
+/* styles.css */
+:root {
+    --gold: #FFD700;
+    --dark-bg: #1a1a1a;
+    --darker-bg: #0a0a0a;
+    --text-light: #ffffff;
+    --text-dark: #000000;
+}
+
 body {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: var(--darker-bg);
+    color: var(--text-light);
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 2rem;
-    text-align: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .title {
     font-family: 'UnifrakturMaguntia', cursive;
     font-size: 4rem;
-    color: #FFD700; /* Gold color */
+    color: var(--gold);
     text-shadow: 2px 2px 4px rgba(255, 215, 0, 0.5);
     margin-bottom: 1rem;
+    letter-spacing: 2px;
 }
 
 .title-underline {
-    border-bottom: 3px solid #FFD700;
+    border-bottom: 3px solid var(--gold);
     width: 60%;
     margin: 0 auto 2rem;
+    opacity: 0.7;
 }
 
-/* Dropdown styling */
+/* Dropdown Styles */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -30,11 +47,11 @@ body {
 }
 
 .dropbtn {
-    background-color: #1a1a1a;
-    color: #FFD700;
+    background-color: var(--dark-bg);
+    color: var(--gold);
     padding: 16px;
     font-size: 1.5rem;
-    border: 2px solid #FFD700;
+    border: 2px solid var(--gold);
     border-radius: 8px;
     cursor: pointer;
     width: 100%;
@@ -42,6 +59,8 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
 }
 
 .dropbtn:hover {
@@ -52,60 +71,204 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #1a1a1a;
+    background-color: var(--dark-bg);
     width: 100%;
-    border: 2px solid #FFD700;
+    border: 2px solid var(--gold);
     border-top: none;
     border-radius: 0 0 8px 8px;
     max-height: 60vh;
     overflow-y: auto;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .dropdown-content.show {
     display: block;
+    animation: dropdownSlide 0.3s ease-out;
 }
 
 .dropdown-content a {
-    color: #ffffff;
+    color: var(--text-light);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     font-family: 'Arial', sans-serif;
     border-bottom: 1px solid #333;
     transition: all 0.2s ease;
-}
-
-.dropdown-content a:last-child {
-    border-bottom: none;
+    position: relative;
 }
 
 .dropdown-content a:hover {
-    background-color: #FFD700;
-    color: #000;
+    background-color: var(--gold);
+    color: var(--text-dark);
     padding-left: 24px;
 }
 
-/* Scrollbar styling */
-.dropdown-content::-webkit-scrollbar {
-    width: 8px;
+/* Albums Section */
+.albums-container {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    max-width: 1200px;
+    margin: 2rem auto;
 }
 
-.dropdown-content::-webkit-scrollbar-track {
-    background: #1a1a1a;
+.albums-container.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
-.dropdown-content::-webkit-scrollbar-thumb {
-    background: #FFD700;
-    border-radius: 4px;
+.selected-artist {
+    font-family: 'MedievalSharp', cursive;
+    color: var(--gold);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
-@media (max-width: 600px) {
-    .dropdown {
-        width: 80%;
+.albums-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.album-card {
+    background: rgba(255, 215, 0, 0.05);
+    border: 1px solid rgba(255, 215, 0, 0.1);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.album-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.1);
+}
+
+.album-art {
+    width: 100%;
+    height: 300px;
+    background-color: var(--dark-bg);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.album-title {
+    font-family: 'MedievalSharp', cursive;
+    color: var(--gold);
+    font-size: 1.4rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.album-year {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.platform-links {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.platform-link {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease;
+}
+
+.platform-link:hover {
+    transform: scale(1.2);
+}
+
+.platform-link img {
+    width: 100%;
+    height: 100%;
+    filter: invert(0.8);
+}
+
+/* Loading and Error States */
+.loading {
+    color: var(--gold);
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.error-message {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff4444;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    animation: errorSlide 0.5s ease-out;
+    z-index: 1000;
+}
+
+@keyframes dropdownSlide {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
     }
-    
-    .dropbtn {
-        font-size: 1.2rem;
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes errorSlide {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 20px;
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .dropdown {
+        width: 90%;
+    }
+
+    .albums-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .album-art {
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .selected-artist {
+        font-size: 2rem;
     }
 }
