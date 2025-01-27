@@ -1,28 +1,31 @@
 // Initialize dropdown functionality
-document.addEventListener('DOMContentLoaded', function() {
-    const dropBtn = document.querySelector('.dropbtn');
-    const dropdownContent = document.querySelector('.dropdown-content');
+document.addEventListener('DOMContentLoaded', () => {
+    const dropdownButton = document.querySelector('.dropdown button.dropbtn');
+    const dropdownMenu = document.querySelector('.dropdown-content');
 
-    // Toggle dropdown visibility
-    dropBtn.addEventListener('click', function() {
-        dropdownContent.classList.toggle('show');
+    // Toggle dropdown
+    dropdownButton.addEventListener('click', () => {
+        dropdownMenu.classList.toggle('show');
     });
 
     // Close dropdown when clicking outside
-    document.addEventListener('click', function(event) {
-        if (!event.target.matches('.dropbtn') && !event.target.closest('.dropdown-content')) {
-            dropdownContent.classList.remove('show');
+    document.addEventListener('click', (event) => {
+        if (!event.target.closest('.dropdown')) {
+            dropdownMenu.classList.remove('show');
         }
     });
 
-    // Add click handlers for artist links
-    document.querySelectorAll('.dropdown-content a').forEach(link => {
-        link.addEventListener('click', function(e) {
+    // Artist selection handler
+    document.querySelectorAll('.dropdown-content a').forEach(artistLink => {
+        artistLink.addEventListener('click', (e) => {
             e.preventDefault();
-            // Update dropdown button text with selected artist
-            dropBtn.textContent = this.textContent; // This is the new line
-            dropdownContent.classList.remove('show');
-            console.log('Selected artist:', this.textContent);
+            // Update button text with selected artist
+            dropdownButton.textContent = e.target.textContent;
+            dropdownMenu.classList.remove('show');
+            
+            // Optional: Add visual feedback
+            dropdownButton.classList.add('artist-selected');
+            setTimeout(() => dropdownButton.classList.remove('artist-selected'), 200);
         });
     });
 });
