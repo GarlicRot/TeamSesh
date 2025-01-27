@@ -19,9 +19,10 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.dropdown-content a').forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
-            // Add your artist selection logic here
-            console.log('Selected artist:', this.textContent);
+            // Update dropdown button text with selected artist
+            dropBtn.textContent = this.textContent; // This is the new line
             dropdownContent.classList.remove('show');
+            console.log('Selected artist:', this.textContent);
         });
     });
 });
