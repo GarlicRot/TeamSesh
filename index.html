@@ -5,39 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TEAMSESH</title>
+    <!-- External Resources -->
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=MedievalSharp&display=swap" rel="stylesheet">
+    <!-- Preconnect to external domains for faster loading -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 <body>
     <div class="container">
+        <!-- Main Title -->
         <h1 class="title">TeamSesh</h1>
         <div class="title-underline"></div>
 
+        <!-- Artist Selection Dropdown -->
         <div class="dropdown">
-            <button class="dropbtn">Artists</button>
-            <div class="dropdown-content">
-                <a href="#">BONES</a>
-                <a href="#">Blanco Billions</a>
-                <a href="#">Cat Soup</a>
-                <a href="#">Deergod</a>
-                <a href="#">Drew The Architect</a>
-                <a href="#">Drip-133</a>
-                <a href="#">Ghost/\/Ghoul</a>
-                <a href="#">Greaf</a>
-                <a href="#">Grayera</a>
-                <a href="#">Hnrk</a>
-                <a href="#">Kodyak</a>
-                <a href="#">Lyson</a>
-                <a href="#">Messiah</a>
-                <a href="#">OregonTrail</a>
-                <a href="#">Ricky A Go Go</a>
-                <a href="#">Skaleaton</a>
-                <a href="#">Smitty The BG</a>
-                <a href="#">Surrenderdorothy</a>
-                <a href="#">Vegard Veslelia</a>
+            <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Artists</button>
+            <div class="dropdown-content" role="menu">
+                <!-- Alphabetical Artist List -->
+                <a href="#" role="menuitem" data-artist="BONES">BONES</a>
+                <a href="#" role="menuitem" data-artist="Blanco Billions">Blanco Billions</a>
+                <a href="#" role="menuitem" data-artist="Cat Soup">Cat Soup</a>
+                <a href="#" role="menuitem" data-artist="Deergod">Deergod</a>
+                <a href="#" role="menuitem" data-artist="Drew The Architect">Drew The Architect</a>
+                <a href="#" role="menuitem" data-artist="Drip-133">Drip-133</a>
+                <a href="#" role="menuitem" data-artist="Ghost/\/Ghoul">Ghost/\/Ghoul</a>
+                <a href="#" role="menuitem" data-artist="Greaf">Greaf</a>
+                <a href="#" role="menuitem" data-artist="Grayera">Grayera</a>
+                <a href="#" role="menuitem" data-artist="Hnrk">Hnrk</a>
+                <a href="#" role="menuitem" data-artist="Kodyak">Kodyak</a>
+                <a href="#" role="menuitem" data-artist="Lyson">Lyson</a>
+                <a href="#" role="menuitem" data-artist="Messiah">Messiah</a>
+                <a href="#" role="menuitem" data-artist="OregonTrail">OregonTrail</a>
+                <a href="#" role="menuitem" data-artist="Ricky A Go Go">Ricky A Go Go</a>
+                <a href="#" role="menuitem" data-artist="Skaleaton">Skaleaton</a>
+                <a href="#" role="menuitem" data-artist="Smitty The BG">Smitty The BG</a>
+                <a href="#" role="menuitem" data-artist="Surrenderdorothy">Surrenderdorothy</a>
+                <a href="#" role="menuitem" data-artist="Vegard Veslelia">Vegard Veslelia</a>
             </div>
         </div>
+
+        <!-- Albums Display Section -->
+        <section class="albums-container" id="albumsContainer" aria-live="polite">
+            <h2 class="selected-artist" id="selectedArtist"></h2>
+            <div class="albums-grid" id="albumsGrid"></div>
+        </section>
     </div>
-    <script src="script.js"></script>
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
 </body>
 </html>
