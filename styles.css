@@ -85,7 +85,7 @@ body {
 }
 
 .dropdown-content.show {
-    display: block;
+    display: block !important;
     animation: dropdownSlide 0.3s ease-out;
 }
 
