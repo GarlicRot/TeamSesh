@@ -15,6 +15,96 @@
                     }
                 }
             ]
+        },
+        {
+            "name": "Blanco Billions",
+            "path": "BlancoBillions",
+            "albums": []
+        },
+        {
+            "name": "Cat Soup",
+            "path": "CatSoup",
+            "albums": []
+        },
+        {
+            "name": "Drew The Architect",
+            "path": "DrewTheArchitect",
+            "albums": []
+        },
+        {
+            "name": "Drip-133",
+            "path": "Drip133",
+            "albums": []
+        },
+        {
+            "name": "Deergod",
+            "path": "Deergod",
+            "albums": []
+        },
+        {
+            "name": "Ghost/\/Ghoul",
+            "path": "GhostGhoul",
+            "albums": []
+        },
+        {
+            "name": "Greaf",
+            "path": "Greaf",
+            "albums": []
+        },
+        {
+            "name": "Grayera",
+            "path": "Grayera",
+            "albums": []
+        },
+        {
+            "name": "Hnrk",
+            "path": "Hnrk",
+            "albums": []
+        },
+        {
+            "name": "Kodyak",
+            "path": "Kodyak",
+            "albums": []
+        },
+        {
+            "name": "Lyson",
+            "path": "Lyson",
+            "albums": []
+        },
+        {
+            "name": "Messiah",
+            "path": "Messiah",
+            "albums": []
+        },
+        {
+            "name": "OregonTrail",
+            "path": "OregonTrail",
+            "albums": []
+        },
+        {
+            "name": "Ricky A Go Go",
+            "path": "RickyAGoGo",
+            "albums": []
+        },
+        {
+            "name": "Smitty The BG",
+            "path": "SmittyTheBG",
+            "albums": []
+        },
+        {
+            "name": "Skaleaton",
+            "path": "Skaleaton",
+            "albums": []
+        },
+        {
+            "name": "Surrenderdorothy",
+            "path": "Surrenderdorothy",
+            "albums": []
+        },
+        {
+            "name": "Vegard Veslelia",
+            "path": "VegardVeslelia",
+            "albums": []
         }
     ]
 }
