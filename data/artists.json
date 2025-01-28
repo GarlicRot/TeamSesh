@@ -1,510 +1,780 @@
 {
-    "artists": [
-{
-    "name": "BONES",
-    "path": "BONES",
-    "albums": [
-        {
-            "title": "1MillionBlunts",
-            "year": 2012,
-            "art": "1MillionBlunts.jpg",
-            "links": {
-                "spotify": "#",
-                "appleMusic": "#",
-                "soundcloud": "#"
-            }
-        },
-        {
-            "title": "Marble",
-            "year": 2013,
-            "art": "Marble.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "LivingLegend",
-            "year": 2013,
-            "art": "LivingLegend.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Saturn",
-            "year": 2013,
-            "art": "Saturn.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Teenager",
-            "year": 2013,
-            "art": "Teenager.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Creep",
-            "year": 2013,
-            "art": "Creep.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "ダサい",
-            "year": 2013,
-            "art": "ダサい.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Scumbag",
-            "year": 2013,
-            "art": "Scumbag.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Cracker",
-            "year": 2013,
-            "art": "Cracker.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "PaidProgramming",
-            "year": 2013,
-            "art": "PaidProgramming.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "UndergroundGods",
-            "year": 2013,
-            "art": "UndergroundGods.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Caves",
-            "year": 2013,
-            "art": "Caves.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "DeadBoy",
-            "year": 2014,
-            "art": "DeadBoy.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "TeenWitch",
-            "year": 2014,
-            "art": "TeenWitch.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "SeaBeds",
-            "year": 2014,
-            "art": "SeaBeds.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Garbage",
-            "year": 2014,
-            "art": "Garbage.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Skinny",
-            "year": 2014,
-            "art": "Skinny.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Rotten",
-            "year": 2014,
-            "art": "Rotten.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "SongsThatRemindYouOfHome",
-            "year": 2015,
-            "art": "SongsThatRemindYouOfHome.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "SoThereWeStood",
-            "year": 2015,
-            "art": "SoThereWeStood.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Powder",
-            "year": 2015,
-            "art": "Powder.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "YouShouldHaveSeenYourFace",
-            "year": 2015,
-            "art": "YouShouldHaveSeenYourFace.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "HateToBreakItToYou",
-            "year": 2015,
-            "art": "HateToBreakItToYou.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Banshee",
-            "year": 2015,
-            "art": "Banshee.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "HermitOfEastGrandRiver",
-            "year": 2015,
-            "art": "HermitOfEastGrandRiver.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Frayed",
-            "year": 2015,
-            "art": "Frayed.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Slán",
-            "year": 2016,
-            "art": "Slán.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Useless",
-            "year": 2016,
-            "art": "Useless.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "PaidProgramming2",
-            "year": 2016,
-            "art": "PaidProgramming2.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "GoodForNothing",
-            "year": 2016,
-            "art": "GoodForNothing.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "SoftwareUpdate1.0",
-            "year": 2016,
-            "art": "SoftwareUpdate1.0.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Disgrace",
-            "year": 2017,
-            "art": "Disgrace.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Unrendered",
-            "year": 2017,
-            "art": "Unrendered.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "NoRedeemingQualities",
-            "year": 2017,
-            "art": "NoRedeemingQualities.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "NetworkUnknown",
-            "year": 2017,
-            "art": "NetworkUnknown.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Carcass (СКЕЛЕТ)",
-            "year": 2017,
-            "art": "Carcass.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Failure",
-            "year": 2017,
-            "art": "Failure.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Augmented",
-            "year": 2018,
-            "art": "Augmented.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "LivingSucks",
-            "year": 2018,
-            "art": "LivingSucks.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "PermanentFrown",
-            "year": 2018,
-            "art": "PermanentFrown.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "TheManInTheRadiator",
-            "year": 2018,
-            "art": "TheManInTheRadiator.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "SparrowsCreek",
-            "year": 2019,
-            "art": "SparrowsCreek.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "UnderTheWillowTree",
-            "year": 2019,
-            "art": "UnderTheWillowTree.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "KickingTheBucket",
-            "year": 2019,
-            "art": "KickingTheBucket.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "IFeelLikeDirt",
-            "year": 2019,
-            "art": "IFeelLikeDirt.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "OFFLINE",
-            "year": 2020,
-            "art": "OFFLINE.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Brace",
-            "year": 2020,
-            "art": "Brace.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "DamagedGoods",
-            "year": 2020,
-            "art": "DamagedGoods.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "REMAINS",
-            "year": 2020,
-            "art": "REMAINS.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "FromBeyondTheGrave",
-            "year": 2020,
-            "art": "FromBeyondTheGrave.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Burden",
-            "year": 2021,
-            "art": "Burden.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "PushingUpDaisies",
-            "year": 2021,
-            "art": "PushingUpDaisies.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "InLovingMemory",
-            "year": 2021,
-            "art": "InLovingMemory.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "ForbiddenImage",
-            "year": 2021,
-            "art": "ForbiddenImage.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Scraps",
-            "year": 2021,
-            "art": "Scraps.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Withered",
-            "year": 2022,
-            "art": "Withered.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "AmericanSweetheart",
-            "year": 2022,
-            "art": "AmericanSweetheart.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "DreamCard",
-            "year": 2022,
-            "art": "DreamCard.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "2MillionBlunts",
-            "year": 2022,
-            "art": "2MillionBlunts.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "TheWitch&TheWizard",
-            "year": 2023,
-            "art": "TheWitchTheWizard.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "JonesPeak",
-            "year": 2023,
-            "art": "JonesPeak.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "BasketCase",
-            "year": 2023,
-            "art": "BasketCase.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": ".ZIP",
-            "year": 2024,
-            "art": "ZIP.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "Champion",
-            "year": 2024,
-            "art": "Champion.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "ModernArchitecture",
-            "year": 2024,
-            "art": "ModernArchitecture.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "CADAVER",
-            "year": 2024,
-            "art": "CADAVER.jpg",
-            "links": { /* ... */ }
-        },
-        {
-            "title": "SoftwareUpdate2.0",
-            "year": 2024,
-            "art": "SoftwareUpdate2.0.jpg",
-            "links": {
-                "spotify": "#",
-                "appleMusic": "#",
-                "soundcloud": "#"
-            }
+  "artists": [
+    {
+      "name": "BONES",
+      "path": "BONES",
+      "albums": [
+        {
+          "title": "BONES",
+          "year": 2012,
+          "art": "BONES.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "1MillionBlunts",
+          "year": 2012,
+          "art": "1MillionBlunts.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Marble",
+          "year": 2013,
+          "art": "Marble.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "LivingLegend",
+          "year": 2013,
+          "art": "LivingLegend.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Saturn",
+          "year": 2013,
+          "art": "Saturn.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Teenager",
+          "year": 2013,
+          "art": "Teenager.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Creep",
+          "year": 2013,
+          "art": "Creep.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "ダサい",
+          "year": 2013,
+          "art": "ダサい.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Scumbag",
+          "year": 2013,
+          "art": "Scumbag.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Cracker",
+          "year": 2013,
+          "art": "Cracker.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "PaidProgramming",
+          "year": 2013,
+          "art": "PaidProgramming.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "UndergroundGods",
+          "year": 2013,
+          "art": "UndergroundGods.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Caves",
+          "year": 2013,
+          "art": "Caves.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "DeadBoy",
+          "year": 2014,
+          "art": "DeadBoy.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "TeenWitch",
+          "year": 2014,
+          "art": "TeenWitch.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "SeaBeds",
+          "year": 2014,
+          "art": "SeaBeds.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Garbage",
+          "year": 2014,
+          "art": "Garbage.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Skinny",
+          "year": 2014,
+          "art": "Skinny.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Rotten",
+          "year": 2014,
+          "art": "Rotten.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "SongsThatRemindYouOfHome",
+          "year": 2015,
+          "art": "SongsThatRemindYouOfHome.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "SoThereWeStood",
+          "year": 2015,
+          "art": "SoThereWeStood.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Powder",
+          "year": 2015,
+          "art": "Powder.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "YouShouldHaveSeenYourFace",
+          "year": 2015,
+          "art": "YouShouldHaveSeenYourFace.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "HateToBreakItToYou",
+          "year": 2015,
+          "art": "HateToBreakItToYou.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Banshee",
+          "year": 2015,
+          "art": "Banshee.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "HermitOfEastGrandRiver",
+          "year": 2015,
+          "art": "HermitOfEastGrandRiver.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Frayed",
+          "year": 2015,
+          "art": "Frayed.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Slán",
+          "year": 2016,
+          "art": "Slán.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Useless",
+          "year": 2016,
+          "art": "Useless.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "PaidProgramming2",
+          "year": 2016,
+          "art": "PaidProgramming2.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "GoodForNothing",
+          "year": 2016,
+          "art": "GoodForNothing.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "SoftwareUpdate1.0",
+          "year": 2016,
+          "art": "SoftwareUpdate1.0.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Disgrace",
+          "year": 2017,
+          "art": "Disgrace.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Unrendered",
+          "year": 2017,
+          "art": "Unrendered.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "NoRedeemingQualities",
+          "year": 2017,
+          "art": "NoRedeemingQualities.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "NetworkUnknown",
+          "year": 2017,
+          "art": "NetworkUnknown.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Carcass (СКЕЛЕТ)",
+          "year": 2017,
+          "art": "Carcass.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Failure",
+          "year": 2017,
+          "art": "Failure.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Augmented",
+          "year": 2018,
+          "art": "Augmented.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "LivingSucks",
+          "year": 2018,
+          "art": "LivingSucks.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "PermanentFrown",
+          "year": 2018,
+          "art": "PermanentFrown.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "TheManInTheRadiator",
+          "year": 2018,
+          "art": "TheManInTheRadiator.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "SparrowsCreek",
+          "year": 2019,
+          "art": "SparrowsCreek.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "UnderTheWillowTree",
+          "year": 2019,
+          "art": "UnderTheWillowTree.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "KickingTheBucket",
+          "year": 2019,
+          "art": "KickingTheBucket.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "IFeelLikeDirt",
+          "year": 2019,
+          "art": "IFeelLikeDirt.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "OFFLINE",
+          "year": 2020,
+          "art": "OFFLINE.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Brace",
+          "year": 2020,
+          "art": "Brace.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "DamagedGoods",
+          "year": 2020,
+          "art": "DamagedGoods.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "REMAINS",
+          "year": 2020,
+          "art": "REMAINS.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "FromBeyondTheGrave",
+          "year": 2020,
+          "art": "FromBeyondTheGrave.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Burden",
+          "year": 2021,
+          "art": "Burden.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "PushingUpDaisies",
+          "year": 2021,
+          "art": "PushingUpDaisies.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "InLovingMemory",
+          "year": 2021,
+          "art": "InLovingMemory.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "ForbiddenImage",
+          "year": 2021,
+          "art": "ForbiddenImage.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Scraps",
+          "year": 2021,
+          "art": "Scraps.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Withered",
+          "year": 2022,
+          "art": "Withered.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "AmericanSweetheart",
+          "year": 2022,
+          "art": "AmericanSweetheart.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "DreamCard",
+          "year": 2022,
+          "art": "DreamCard.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "2MillionBlunts",
+          "year": 2022,
+          "art": "2MillionBlunts.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "TheWitch&TheWizard",
+          "year": 2023,
+          "art": "TheWitchTheWizard.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "JonesPeak",
+          "year": 2023,
+          "art": "JonesPeak.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "BasketCase",
+          "year": 2023,
+          "art": "BasketCase.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": ".ZIP",
+          "year": 2024,
+          "art": "ZIP.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Champion",
+          "year": 2024,
+          "art": "Champion.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "ModernArchitecture",
+          "year": 2024,
+          "art": "ModernArchitecture.png",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "CADAVER",
+          "year": 2024,
+          "art": "CADAVER.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "SoftwareUpdate2.0",
+          "year": 2024,
+          "art": "SoftwareUpdate2.0.jpg",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
         }
-    ]
-},
-        {
-            "name": "Blanco Billions",
-            "path": "BlancoBillions",
-            "albums": []
-        },
-        {
-            "name": "Cat Soup",
-            "path": "CatSoup",
-            "albums": []
-        },
-        {
-            "name": "Drew The Architect",
-            "path": "DrewTheArchitect",
-            "albums": []
-        },
-        {
-            "name": "Drip-133",
-            "path": "Drip133",
-            "albums": []
-        },
-        {
-            "name": "Deergod",
-            "path": "Deergod",
-            "albums": []
-        },
-        {
-            "name": "Ghost/\/Ghoul",
-            "path": "GhostGhoul",
-            "albums": []
-        },
-        {
-            "name": "Greaf",
-            "path": "Greaf",
-            "albums": []
-        },
-        {
-            "name": "Grayera",
-            "path": "Grayera",
-            "albums": []
-        },
-        {
-            "name": "Hnrk",
-            "path": "Hnrk",
-            "albums": []
-        },
-        {
-            "name": "Kodyak",
-            "path": "Kodyak",
-            "albums": []
-        },
-        {
-            "name": "Lyson",
-            "path": "Lyson",
-            "albums": []
-        },
-        {
-            "name": "Messiah",
-            "path": "Messiah",
-            "albums": []
-        },
-        {
-            "name": "OregonTrail",
-            "path": "OregonTrail",
-            "albums": []
-        },
-        {
-            "name": "Ricky A Go Go",
-            "path": "RickyAGoGo",
-            "albums": []
-        },
-        {
-            "name": "Smitty The BG",
-            "path": "SmittyTheBG",
-            "albums": []
-        },
-        {
-            "name": "Skaleaton",
-            "path": "Skaleaton",
-            "albums": []
-        },
-        {
-            "name": "Surrenderdorothy",
-            "path": "Surrenderdorothy",
-            "albums": []
-        },
-        {
-            "name": "Vegard Veslelia",
-            "path": "VegardVeslelia",
-            "albums": []
-        }
-    ]
+      ]
+    },
+    {
+      "name": "Blanco Billions",
+      "path": "BlancoBillions",
+      "albums": []
+    },
+    {
+      "name": "Cat Soup",
+      "path": "CatSoup",
+      "albums": []
+    },
+    {
+      "name": "Drew The Architect",
+      "path": "DrewTheArchitect",
+      "albums": []
+    },
+    {
+      "name": "Drip-133",
+      "path": "Drip133",
+      "albums": []
+    },
+    {
+      "name": "Deergod",
+      "path": "Deergod",
+      "albums": []
+    },
+    {
+      "name": "Ghost//Ghoul",
+      "path": "GhostGhoul",
+      "albums": []
+    },
+    {
+      "name": "Greaf",
+      "path": "Greaf",
+      "albums": []
+    },
+    {
+      "name": "Grayera",
+      "path": "Grayera",
+      "albums": []
+    },
+    {
+      "name": "Hnrk",
+      "path": "Hnrk",
+      "albums": []
+    },
+    {
+      "name": "Kodyak",
+      "path": "Kodyak",
+      "albums": []
+    },
+    {
+      "name": "Lyson",
+      "path": "Lyson",
+      "albums": []
+    },
+    {
+      "name": "Messiah",
+      "path": "Messiah",
+      "albums": []
+    },
+    {
+      "name": "OregonTrail",
+      "path": "OregonTrail",
+      "albums": []
+    },
+    {
+      "name": "Ricky A Go Go",
+      "path": "RickyAGoGo",
+      "albums": []
+    },
+    {
+      "name": "Smitty The BG",
+      "path": "SmittyTheBG",
+      "albums": []
+    },
+    {
+      "name": "Skaleaton",
+      "path": "Skaleaton",
+      "albums": []
+    },
+    {
+      "name": "Surrenderdorothy",
+      "path": "Surrenderdorothy",
+      "albums": []
+    },
+    {
+      "name": "Vegard Veslelia",
+      "path": "VegardVeslelia",
+      "albums": []
+    }
+  ]
 }
