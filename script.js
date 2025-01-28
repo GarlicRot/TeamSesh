@@ -1,95 +1,141 @@
 // script.js
-document.addEventListener('DOMContentLoaded', async () => {
-    // DOM Elements
-    const dropdownButton = document.querySelector('.dropdown button.dropbtn');
-    const dropdownMenu = document.querySelector('.dropdown-content');
-    const albumsContainer = document.getElementById('albumsContainer');
-    const albumsGrid = document.getElementById('albumsGrid');
-    const selectedArtistHeading = document.getElementById('selectedArtist');
+document.addEventListener("DOMContentLoaded", async () => {
+  // DOM Elements
+  const dropdownButton = document.querySelector(".dropdown button.dropbtn");
+  const dropdownMenu = document.querySelector(".dropdown-content");
+  const albumsContainer = document.getElementById("albumsContainer");
+  const albumsGrid = document.getElementById("albumsGrid");
+  const selectedArtistHeading = document.getElementById("selectedArtist");
 
-    // Add dropdown toggle functionality
-    dropdownButton.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const isExpanded = dropdownButton.getAttribute('aria-expanded') === 'true';
-        dropdownMenu.classList.toggle('show');
-        dropdownButton.setAttribute('aria-expanded', !isExpanded);
-    });
+  // Add dropdown toggle functionality
+  dropdownButton.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const isExpanded = dropdownButton.getAttribute("aria-expanded") === "true";
+    dropdownMenu.classList.toggle("show");
+    dropdownButton.setAttribute("aria-expanded", !isExpanded);
+  });
 
-    // Load artist data from external JSON
-    let artistsData = [];
-    try {
-        const response = await fetch('data/artists.json');
-        if (!response.ok) throw new Error('Network response was not ok');
-        const data = await response.json();
-        artistsData = data.artists;
-        populateArtistDropdown(artistsData);
-    } catch (error) {
-        console.error('Error loading artist data:', error);
-        showErrorMessage('Failed to load artist data. Please try again later.');
-        return;
-    }
+  // Load artist data from external JSON
+  let artistsData = [];
+  try {
+    const response = await fetch("data/artists.json");
+    if (!response.ok) throw new Error("Network response was not ok");
+    const data = await response.json();
+    artistsData = data.artists;
+    populateArtistDropdown(artistsData);
+  } catch (error) {
+    console.error("Error loading artist data:", error);
+    showErrorMessage("Failed to load artist data. Please try again later.");
+    return;
+  }
 
-    // Populate dropdown with artists
-    function populateArtistDropdown(artists) {
-        dropdownMenu.innerHTML = artists
-            .sort((a, b) => a.name.localeCompare(b.name))
-            .map(artist => `
+  // Populate dropdown with artists
+  function populateArtistDropdown(artists) {
+    dropdownMenu.innerHTML = artists
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .map(
+        (artist) => `
                 <a href="#" 
                    class="artist-option" 
                    data-artist="${artist.name}"
                    role="menuitem">
                     ${artist.name}
                 </a>
-            `).join('');
+            `
+      )
+      .join("");
 
-        // Add event listeners to new artist options
-        document.querySelectorAll('.artist-option').forEach(option => {
-            option.addEventListener('click', handleArtistSelection);
-        });
+    // Add event listeners to new artist options
+    document.querySelectorAll(".artist-option").forEach((option) => {
+      option.addEventListener("click", handleArtistSelection);
+    });
+  }
+
+  // Handle artist selection
+  async function handleArtistSelection(e) {
+    e.preventDefault();
+    const artistName = e.target.dataset.artist;
+    const artist = artistsData.find((a) => a.name === artistName);
+
+    if (!artist) {
+      showErrorMessage("Artist data not found");
+      return;
     }
 
-    // Handle artist selection
-    async function handleArtistSelection(e) {
-        e.preventDefault();
-        const artistName = e.target.dataset.artist;
-        const artist = artistsData.find(a => a.name === artistName);
+    // Update UI
+    updateSelectedArtist(artistName);
+    await displayAlbums(artist);
+  }
 
-        if (!artist) {
-            showErrorMessage('Artist data not found');
-            return;
-        }
+  // Update selected artist display
+  function updateSelectedArtist(artistName) {
+    dropdownButton.textContent = artistName;
+    dropdownMenu.classList.remove("show");
+    selectedArtistHeading.textContent = `${artistName}'s Albums`;
+    dropdownButton.setAttribute("aria-expanded", "false");
+  }
 
-        // Update UI
-        updateSelectedArtist(artistName);
-        await displayAlbums(artist);
-    }
+  // Display albums for selected artist
+  async function displayAlbums(artist) {
+    albumsGrid.innerHTML = '<div class="loading">Loading albums...</div>';
+    albumsContainer.classList.add("visible");
 
-    // Update selected artist display
-    function updateSelectedArtist(artistName) {
-        dropdownButton.textContent = artistName;
-        dropdownMenu.classList.remove('show');
-        selectedArtistHeading.textContent = `${artistName}'s Albums`;
-        dropdownButton.setAttribute('aria-expanded', 'false');
-    }
+    try {
+      albumCard.innerHTML = `
+        <div class="album-art" 
+            style="background-image: url('assets/artists/${artist.path}/${
+        album.art
+      }')"
+            role="img" 
+            aria-label="${album.title} album cover">
+        </div>
+        <div class="album-info">
+            <h3 class="album-title">${album.title}</h3>
+            <p class="album-year">${album.year}</p>
+            <div class="platform-links">
+                ${createPlatformLinks(album.links)}
+            </div>
+        </div>
+        <div class="album-details">
+            ${
+              album.description
+                ? `<p class="album-description">${album.description}</p>`
+                : ""
+            }
+            ${
+              album.tracks
+                ? `
+            <div class="tracklist">
+                <h4 class="tracklist-title">Track List</h4>
+                <ul class="tracklist-items">
+                    ${album.tracks
+                      .map(
+                        (track) => `
+                        <li class="track">
+                            <span class="track-title">${track.title}</span>
+                            <span class="track-duration">${track.duration}</span>
+                        </li>
+                    `
+                      )
+                      .join("")}
+                </ul>
+            </div>
+            `
+                : ""
+            }
+        </div>
+    `;
 
-    // Display albums for selected artist
-    async function displayAlbums(artist) {
-        albumsGrid.innerHTML = '<div class="loading">Loading albums...</div>';
-        albumsContainer.classList.add('visible');
-
-        try {
-            // Clear previous content
-            albumsGrid.innerHTML = '';
-
-            // Create album cards
-            artist.albums.forEach(album => {
-                const albumCard = document.createElement('article');
-                albumCard.className = 'album-card';
-                albumCard.innerHTML = `
+      artist.albums.forEach((album) => {
+        const albumCard = document.createElement("article");
+        albumCard.className = "album-card";
+        albumCard.innerHTML = `
                     <div class="album-art" 
-                         style="background-image: url('assets/artists/${artist.path}/${album.art}')"
-                         role="img" 
-                         aria-label="${album.title} album cover">
+                        style="background-image: url('assets/artists/${
+                          artist.path
+                        }/${album.art}')"
+                        role="img" 
+                        aria-label="${album.title} album cover">
                     </div>
                     <div class="album-info">
                         <h3 class="album-title">${album.title}</h3>
@@ -98,22 +144,46 @@ document.addEventListener('DOMContentLoaded', async () => {
                             ${createPlatformLinks(album.links)}
                         </div>
                     </div>
+                    <div class="album-details">
+                        <p class="album-description">${album.description}</p>
+                    </div>
                 `;
-                albumsGrid.appendChild(albumCard);
-            });
 
-            // Scroll to albums section
-            albumsContainer.scrollIntoView({ behavior: 'smooth' });
+        // Expansion functionality
+        albumCard.addEventListener("click", function (e) {
+          // Don't trigger expansion on link clicks
+          if (e.target.closest("a")) return;
 
-        } catch (error) {
-            console.error('Error displaying albums:', error);
-            showErrorMessage('Failed to load albums. Please try again.');
-        }
+          const wasExpanded = this.classList.contains("expanded");
+
+          // Close all other cards
+          document.querySelectorAll(".album-card.expanded").forEach((card) => {
+            card.classList.remove("expanded");
+            card.setAttribute("aria-expanded", "false");
+          });
+
+          // Toggle if not already expanded
+          if (!wasExpanded) {
+            this.classList.add("expanded");
+            this.setAttribute("aria-expanded", "true");
+          }
+        });
+
+        albumsGrid.appendChild(albumCard);
+      });
+
+      albumsContainer.scrollIntoView({ behavior: "smooth" });
+    } catch (error) {
+      console.error("Error displaying albums:", error);
+      showErrorMessage("Failed to load albums. Please try again.");
     }
+  }
 
-    // Create platform links HTML
-    function createPlatformLinks(links) {
-        return Object.entries(links).map(([platform, url]) => `
+  // Create platform links HTML
+  function createPlatformLinks(links) {
+    return Object.entries(links)
+      .map(
+        ([platform, url]) => `
             <a href="${url}" 
                class="platform-link" 
                target="_blank"
@@ -123,23 +193,25 @@ document.addEventListener('DOMContentLoaded', async () => {
                      alt="${platform} icon"
                      class="platform-icon">
             </a>
-        `).join('');
-    }
+        `
+      )
+      .join("");
+  }
 
-    // Error handling
-    function showErrorMessage(message) {
-        const errorDiv = document.createElement('div');
-        errorDiv.className = 'error-message';
-        errorDiv.textContent = message;
-        document.body.prepend(errorDiv);
-        setTimeout(() => errorDiv.remove(), 5000);
-    }
+  // Error handling
+  function showErrorMessage(message) {
+    const errorDiv = document.createElement("div");
+    errorDiv.className = "error-message";
+    errorDiv.textContent = message;
+    document.body.prepend(errorDiv);
+    setTimeout(() => errorDiv.remove(), 5000);
+  }
 
-    // Close dropdown when clicking outside
-    document.addEventListener('click', (event) => {
-        if (!event.target.closest('.dropdown')) {
-            dropdownMenu.classList.remove('show');
-            dropdownButton.setAttribute('aria-expanded', 'false');
-        }
-    });
+  // Close dropdown when clicking outside
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest(".dropdown")) {
+      dropdownMenu.classList.remove("show");
+      dropdownButton.setAttribute("aria-expanded", "false");
+    }
+  });
 });

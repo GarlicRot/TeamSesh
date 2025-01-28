@@ -8,6 +8,22 @@
           "title": "BONES",
           "year": 2012,
           "art": "BONES.jpg",
+          "description": "The debut mixtape that started it all. Raw production combined with dark, introspective lyrics establishing the SESH sound.",
+          "tracks": [
+            { "title": "GoldRope", "duration": "1:57" },
+            { "title": "CokeWhiteCaddy", "duration": "1:56" },
+            { "title": "Alizé", "duration": "1:45" },
+            { "title": "Water", "duration": "2:16" },
+            { "title": "WestCoastPlayer", "duration": "2:09" },
+            { "title": "Skeletons", "duration": "1:44" },
+            { "title": "Tangueray", "duration": "1:50" },
+            { "title": "Boneyard", "duration": "1:53" },
+            { "title": "CashedMoneyMillionaires", "duration": "2:09" },
+            { "title": "RolexDiamonds", "duration": "1:58" },
+            { "title": "LightsDown", "duration": "2:33" },
+            { "title": "Bones", "duration": "1:44" },
+            { "title": "Smoke", "duration": "2:19" }
+          ],
           "links": {
             "spotify": "#",
             "appleMusic": "#",
