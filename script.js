@@ -81,11 +81,18 @@ document.addEventListener("DOMContentLoaded", async () => {
     albumsContainer.classList.add("visible");
 
     try {
-      albumCard.innerHTML = `
+      // Clear the grid before adding new albums
+      albumsGrid.innerHTML = "";
+
+      // Loop through each album and create its card
+      artist.albums.forEach((album) => {
+        const albumCard = document.createElement("article");
+        albumCard.className = "album-card";
+        albumCard.innerHTML = `
         <div class="album-art" 
             style="background-image: url('assets/artists/${artist.path}/${
-        album.art
-      }')"
+          album.art
+        }')"
             role="img" 
             aria-label="${album.title} album cover">
         </div>
@@ -124,30 +131,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 : ""
             }
         </div>
-    `;
-
-      artist.albums.forEach((album) => {
-        const albumCard = document.createElement("article");
-        albumCard.className = "album-card";
-        albumCard.innerHTML = `
-                    <div class="album-art" 
-                        style="background-image: url('assets/artists/${
-                          artist.path
-                        }/${album.art}')"
-                        role="img" 
-                        aria-label="${album.title} album cover">
-                    </div>
-                    <div class="album-info">
-                        <h3 class="album-title">${album.title}</h3>
-                        <p class="album-year">${album.year}</p>
-                        <div class="platform-links">
-                            ${createPlatformLinks(album.links)}
-                        </div>
-                    </div>
-                    <div class="album-details">
-                        <p class="album-description">${album.description}</p>
-                    </div>
-                `;
+      `;
 
         // Expansion functionality
         albumCard.addEventListener("click", function (e) {
@@ -169,9 +153,11 @@ document.addEventListener("DOMContentLoaded", async () => {
           }
         });
 
+        // Append the album card to the grid
         albumsGrid.appendChild(albumCard);
       });
 
+      // Scroll into view after loading albums
       albumsContainer.scrollIntoView({ behavior: "smooth" });
     } catch (error) {
       console.error("Error displaying albums:", error);
