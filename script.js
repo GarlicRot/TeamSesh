@@ -35,13 +35,13 @@ document.addEventListener("DOMContentLoaded", async () => {
       .sort((a, b) => a.name.localeCompare(b.name))
       .map(
         (artist) => `
-                <a href="#" 
-                   class="artist-option" 
-                   data-artist="${artist.name}"
-                   role="menuitem">
-                    ${artist.name}
-                </a>
-            `
+          <a href="#" 
+             class="artist-option" 
+             data-artist="${artist.name}"
+             role="menuitem">
+              ${artist.name}
+          </a>
+        `
       )
       .join("");
 
@@ -75,8 +75,34 @@ document.addEventListener("DOMContentLoaded", async () => {
     dropdownButton.setAttribute("aria-expanded", "false");
   }
 
+  // Create platform links HTML
+  function createPlatformLinks(links) {
+    if (!links) return "";
+
+    return Object.entries(links)
+      .map(
+        ([platform, url]) => `
+          <a href="${url}" 
+             class="platform-link" 
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="${platform}">
+              <img src="assets/icons/${platform}.svg" 
+                   alt="${platform} icon"
+                   class="platform-icon">
+          </a>
+        `
+      )
+      .join("");
+  }
+
   // Display albums for selected artist
   async function displayAlbums(artist) {
+    if (!artist || !artist.albums) {
+      showErrorMessage("Invalid artist data");
+      return;
+    }
+
     albumsGrid.innerHTML = '<div class="loading">Loading albums...</div>';
     albumsContainer.classList.add("visible");
 
@@ -86,55 +112,57 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       // Loop through each album and create its card
       artist.albums.forEach((album) => {
-        const albumCard = document.createElement("article");
-        albumCard.className = "album-card";
-        albumCard.innerHTML = `
-        <div class="album-art" 
-            style="background-image: url('assets/artists/${artist.path}/${
+        if (!album) return;
+
+        const card = document.createElement("article");
+        card.className = "album-card";
+        card.innerHTML = `
+          <div class="album-art" 
+              style="background-image: url('assets/artists/${artist.path}/${
           album.art
         }')"
-            role="img" 
-            aria-label="${album.title} album cover">
-        </div>
-        <div class="album-info">
-            <h3 class="album-title">${album.title}</h3>
-            <p class="album-year">${album.year}</p>
-            <div class="platform-links">
-                ${createPlatformLinks(album.links)}
-            </div>
-        </div>
-        <div class="album-details">
-            ${
-              album.description
-                ? `<p class="album-description">${album.description}</p>`
-                : ""
-            }
-            ${
-              album.tracks
-                ? `
-            <div class="tracklist">
-                <h4 class="tracklist-title">Track List</h4>
-                <ul class="tracklist-items">
-                    ${album.tracks
-                      .map(
-                        (track) => `
-                        <li class="track">
-                            <span class="track-title">${track.title}</span>
-                            <span class="track-duration">${track.duration}</span>
-                        </li>
-                    `
-                      )
-                      .join("")}
-                </ul>
-            </div>
-            `
-                : ""
-            }
-        </div>
-      `;
+              role="img" 
+              aria-label="${album.title} album cover">
+          </div>
+          <div class="album-info">
+              <h3 class="album-title">${album.title || "Untitled"}</h3>
+              <p class="album-year">${album.year || "N/A"}</p>
+              <div class="platform-links">
+                  ${createPlatformLinks(album.links)}
+              </div>
+          </div>
+          <div class="album-details">
+              ${
+                album.description
+                  ? `<p class="album-description">${album.description}</p>`
+                  : ""
+              }
+              ${
+                album.tracks
+                  ? `
+              <div class="tracklist">
+                  <h4 class="tracklist-title">Track List</h4>
+                  <ul class="tracklist-items">
+                      ${album.tracks
+                        .map(
+                          (track) => `
+                          <li class="track">
+                              <span class="track-title">${track.title}</span>
+                              <span class="track-duration">${track.duration}</span>
+                          </li>
+                      `
+                        )
+                        .join("")}
+                  </ul>
+              </div>
+              `
+                  : ""
+              }
+          </div>
+        `;
 
         // Expansion functionality
-        albumCard.addEventListener("click", function (e) {
+        card.addEventListener("click", function (e) {
           // Don't trigger expansion on link clicks
           if (e.target.closest("a")) return;
 
@@ -154,7 +182,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
 
         // Append the album card to the grid
-        albumsGrid.appendChild(albumCard);
+        albumsGrid.appendChild(card);
       });
 
       // Scroll into view after loading albums
