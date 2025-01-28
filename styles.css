@@ -289,6 +289,44 @@ body {
   z-index: 1000;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top:hover {
+  background-color: #555;
+  transform: translateY(-3px);
+}
+
+.back-to-top:active {
+  transform: translateY(0);
+}
+
+.back-to-top {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
 @keyframes dropdownSlide {
   from {
     opacity: 0;
@@ -331,6 +369,13 @@ body {
 
   .album-art {
     height: 250px;
+  }
+
+  .back-to-top {
+    bottom: 15px;
+    right: 15px;
+    width: 35px;
+    height: 35px;
   }
 }
 

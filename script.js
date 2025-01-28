@@ -103,6 +103,33 @@ document.addEventListener("DOMContentLoaded", async () => {
       return;
     }
 
+    // Create and add back to top button
+    const backToTopButton = document.createElement("button");
+    backToTopButton.className = "back-to-top";
+    backToTopButton.setAttribute("aria-label", "Back to top");
+    backToTopButton.innerHTML = `
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  `;
+    document.body.appendChild(backToTopButton);
+
+    // Back to top button functionality
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 300) {
+        backToTopButton.classList.add("visible");
+      } else {
+        backToTopButton.classList.remove("visible");
+      }
+    });
+
+    backToTopButton.addEventListener("click", () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    });
+
     albumsGrid.innerHTML = '<div class="loading">Loading albums...</div>';
     albumsContainer.classList.add("visible");
 
