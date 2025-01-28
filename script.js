@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 albumCard.className = 'album-card';
                 albumCard.innerHTML = `
                     <div class="album-art" 
-                         style="background-image: url('assets/${artist.path}/${album.art}')"
+                         style="background-image: url('assets/artists/${artist.path}/${album.art}')"
                          role="img" 
                          aria-label="${album.title} album cover">
                     </div>
