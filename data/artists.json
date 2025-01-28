@@ -923,6 +923,34 @@
           }
         },
         {
+          "title": "Loose Ends",
+          "year": 2020,
+          "art": "LooseEnds.jpg",
+          "tracks": [
+            { "title": "Matters to You", "duration": "3:33" },
+            { "title": "The Aroma When You Walk Into Home Depot", "duration": "2:14" },
+            { "title": "Since I Met You", "duration": "2:21" },
+            { "title": "Rest of Our Lives", "duration": "2:14" },
+            { "title": "In My Head", "duration": "1:37" },
+            { "title": "Frost", "duration": "1:44" },
+            { "title": "Closer Than This", "duration": "1:59" },
+            { "title": "Clear Days", "duration": "3:04" },
+            { "title": "How Would I Find You", "duration": "3:19" },
+            { "title": "Night and Day", "duration": "2:02" },
+            { "title": "Puffy", "duration": "1:35" },
+            { "title": "With and Without", "duration": "2:03" },
+            { "title": "You Were at the Right Place at the Right Time", "duration": "2:48" },
+            { "title": "Nocturnal", "duration": "2:18" },
+            { "title": "Sorry", "duration": "3:36" },
+            { "title": "Find What You Want", "duration": "2:04" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
           "title": "Black Cherry Avenue",
           "year": 2020,
           "art": "BlackCherryAvenue.jpg",
