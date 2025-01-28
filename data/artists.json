@@ -702,270 +702,270 @@
         }
       ]
     },
-{
-  "name": "Blanco Billions",
-  "path": "BlancoBillions",
-  "albums": [
     {
-      "title": "Black, Vol. 1",
-      "year": 2013,
-      "art": "BlackVol1.jpg",
-      "tracks": [
-        { "title": "A Tribute", "duration": "4:39" },
-        { "title": "Diamonds Pressed Up", "duration": "2:24" },
-        { "title": "Oxy", "duration": "2:12" },
-        { "title": "Trillion Feet", "duration": "4:46" },
-        { "title": "Shoot First", "duration": "2:11" },
-        { "title": "Purple Tarzan", "duration": "4:02" },
-        { "title": "Drop Into the Chevy", "duration": "3:07" },
-        { "title": "Fuk Dem Hoe$", "duration": "2:15" },
-        { "title": "Road to Wrestlemania", "duration": "3:29" },
-        { "title": "Main Event", "duration": "2:59" },
-        { "title": "Blastin", "duration": "2:16" },
-        { "title": "Give It Up", "duration": "1:44" },
-        { "title": "666 Business", "duration": "1:55" },
-        { "title": "How I Left Her", "duration": "3:15" },
-        { "title": "Sonic Shuffle Underwater Stage", "duration": "3:45" },
-        { "title": "Undertaker", "duration": "3:27" },
-        { "title": "Black Dimension", "duration": "4:04" },
-        { "title": "Purple Tarzan II", "duration": "1:28" },
-        { "title": "Exit 12:01", "duration": "4:06" },
-        { "title": "Real Trap Shit [bonus track]", "duration": "3:56" },
-        { "title": "Casino Night Zone [bonus track]", "duration": "1:55" }
-      ],
-      "links": {
-        "spotify": "#",
-        "appleMusic": "#",
-        "soundcloud": "#"
-      }
+      "name": "Blanco Billions",
+      "path": "BlancoBillions",
+      "albums": [
+        {
+          "title": "Black, Vol. 1",
+          "year": 2013,
+          "art": "BlackVol1.jpg",
+          "tracks": [
+            { "title": "A Tribute", "duration": "4:39" },
+            { "title": "Diamonds Pressed Up", "duration": "2:24" },
+            { "title": "Oxy", "duration": "2:12" },
+            { "title": "Trillion Feet", "duration": "4:46" },
+            { "title": "Shoot First", "duration": "2:11" },
+            { "title": "Purple Tarzan", "duration": "4:02" },
+            { "title": "Drop Into the Chevy", "duration": "3:07" },
+            { "title": "Fuk Dem Hoe$", "duration": "2:15" },
+            { "title": "Road to Wrestlemania", "duration": "3:29" },
+            { "title": "Main Event", "duration": "2:59" },
+            { "title": "Blastin", "duration": "2:16" },
+            { "title": "Give It Up", "duration": "1:44" },
+            { "title": "666 Business", "duration": "1:55" },
+            { "title": "How I Left Her", "duration": "3:15" },
+            { "title": "Sonic Shuffle Underwater Stage", "duration": "3:45" },
+            { "title": "Undertaker", "duration": "3:27" },
+            { "title": "Black Dimension", "duration": "4:04" },
+            { "title": "Purple Tarzan II", "duration": "1:28" },
+            { "title": "Exit 12:01", "duration": "4:06" },
+            { "title": "Real Trap Shit [bonus track]", "duration": "3:56" },
+            { "title": "Casino Night Zone [bonus track]", "duration": "1:55" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Winter Church Palace",
+          "year": 2013,
+          "art": "WinterChurchPalace.jpg",
+          "tracks": [
+            { "title": "Welcome 2 da Church", "duration": "1:24" },
+            { "title": "Bitch Confesses Yet Again", "duration": "4:38" },
+            { "title": "Sorry4MakingYouFeelSomeTypeOfWay", "duration": "3:45" },
+            { "title": "See You Again Somewhere", "duration": "3:18" },
+            { "title": "Hope He Breaks Ur Heart", "duration": "4:48" },
+            { "title": "Holy Matramony", "duration": "3:05" },
+            { "title": "Car Wash Before Love", "duration": "2:09" },
+            { "title": "All the Small Things", "duration": "1:51" },
+            { "title": "Killa Freestyle in the Back of the Church", "duration": "7:26" },
+            { "title": "You're Free 2 Go", "duration": "2:50" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Teenage Identity Crisis",
+          "year": 2014,
+          "art": "TeenageIdentityCrisis.jpg",
+          "tracks": [
+            { "title": "Love You Me", "duration": "3:35" },
+            { "title": "AOL", "duration": "1:01" },
+            { "title": "As Long As I Have You", "duration": "2:53" },
+            { "title": "Dusk", "duration": "0:46" },
+            { "title": "Remember This Forever", "duration": "3:48" },
+            { "title": "Closer Than Ever", "duration": "3:10" },
+            { "title": "Walk Back Home", "duration": "1:16" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Can't Sleep",
+          "year": 2014,
+          "art": "CantSleep.jpg",
+          "tracks": [
+            { "title": "Got Some Real Bad News", "duration": "1:37" },
+            { "title": "Said Goodbye at the Place We Met", "duration": "1:27" },
+            { "title": "Ain't That Ironic", "duration": "0:48" },
+            { "title": "Flexxx Pt. 2", "duration": "2:12" },
+            { "title": "Turn Around//Ugly Face!", "duration": "1:42" },
+            { "title": "Baby U Know", "duration": "1:52" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "F.O.O.L",
+          "year": 2017,
+          "art": "FOOL.jpg",
+          "tracks": [
+            { "title": "Simple Things", "duration": "3:40" },
+            { "title": "Like Red", "duration": "3:27" },
+            { "title": "Away", "duration": "3:17" },
+            { "title": "Memory", "duration": "3:10" },
+            { "title": "Violet", "duration": "3:09" },
+            { "title": "Fragile", "duration": "3:47" },
+            { "title": "Only", "duration": "3:15" },
+            { "title": "Midnight", "duration": "2:44" },
+            { "title": "Last", "duration": "3:23" },
+            { "title": "Modest", "duration": "2:55" },
+            { "title": "Late", "duration": "3:33" },
+            { "title": "Cream", "duration": "3:12" },
+            { "title": "Idle", "duration": "3:38" },
+            { "title": "Butterscotch", "duration": "2:54" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Seasons",
+          "year": 2017,
+          "art": "Seasons.jpg",
+          "tracks": [
+            { "title": "Echoes", "duration": "3:28" },
+            { "title": "The Motion", "duration": "2:32" },
+            { "title": "Sunset", "duration": "2:19" },
+            { "title": "It's Not Uncommon", "duration": "2:13" },
+            { "title": "With U", "duration": "2:32" },
+            { "title": "Unforgotten", "duration": "2:24" },
+            { "title": "No Sense", "duration": "2:35" },
+            { "title": "Left Behind", "duration": "2:20" },
+            { "title": "Out of Mind", "duration": "2:03" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Somewhere Else (Vol. 1)",
+          "year": 2017,
+          "art": "SomewhereElseVol1.jpg",
+          "tracks": [
+            { "title": "Why So Low", "duration": "2:03" },
+            { "title": "Nine", "duration": "2:34" },
+            { "title": "Royale", "duration": "2:25" },
+            { "title": "Over Here", "duration": "2:34" },
+            { "title": "Dawn", "duration": "2:41" },
+            { "title": "Dusk", "duration": "2:12" },
+            { "title": "Any Other Way", "duration": "2:51" },
+            { "title": "Never", "duration": "2:07" },
+            { "title": "Thursday", "duration": "3:06" },
+            { "title": "Swimming", "duration": "2:33" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Halcyon",
+          "year": 2018,
+          "art": "Halcyon.jpg",
+          "tracks": [
+            { "title": "Skylight", "duration": "2:34" },
+            { "title": "Anywhere But Here", "duration": "2:54" },
+            { "title": "Stay With Me", "duration": "3:00" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Closure",
+          "year": 2018,
+          "art": "Closure.jpg",
+          "tracks": [
+            { "title": "Closure", "duration": "2:26" },
+            { "title": "Another One", "duration": "1:31" },
+            { "title": "Relief", "duration": "1:50" },
+            { "title": "Remember", "duration": "2:20" },
+            { "title": "Once in a While", "duration": "1:58" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "For the Long Run",
+          "year": 2019,
+          "art": "ForTheLongRun.jpg",
+          "tracks": [
+            { "title": "Finest", "duration": "1:59" },
+            { "title": "Always on My Mind", "duration": "2:10" },
+            { "title": "Downtown", "duration": "2:16" },
+            { "title": "Higher", "duration": "2:11" },
+            { "title": "Stories", "duration": "2:02" },
+            { "title": "Rainy Night", "duration": "1:57" },
+            { "title": "Resemblance", "duration": "1:57" },
+            { "title": "Not Another Memory", "duration": "2:04" },
+            { "title": "Under the Sea", "duration": "1:41" },
+            { "title": "How It Could Be", "duration": "2:42" },
+            { "title": "Perfect", "duration": "1:42" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Black Cherry Avenue",
+          "year": 2020,
+          "art": "BlackCherryAvenue.jpg",
+          "tracks": [
+            { "title": "Black Cherry Avenue", "duration": "1:11" },
+            { "title": "Halfway", "duration": "2:25" },
+            { "title": "Letter From Home", "duration": "1:38" },
+            { "title": "Interlude", "duration": "1:20" },
+            { "title": "Come Over", "duration": "2:08" },
+            { "title": "Same Night", "duration": "2:25" },
+            { "title": "Trying", "duration": "1:46" },
+            { "title": "Yesterday", "duration": "2:21" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "A Perfect Life Doesn't Leave Heaven Much to Offer",
+          "year": 2021,
+          "art": "APerfectLife.jpg",
+          "tracks": [
+            { "title": "Shades of Red", "duration": "2:13" },
+            { "title": "Clarity", "duration": "1:48" },
+            { "title": "Best Memories", "duration": "2:31" },
+            { "title": "Nothing Lasts Forever", "duration": "2:16" },
+            { "title": "Maybe It's for the Best", "duration": "1:58" },
+            { "title": "A Perfect Life Doesn't Leave Heaven Much to Offer", "duration": "2:06" },
+            { "title": "Heaven", "duration": "3:05" },
+            { "title": "Whatever Tomorrow Brings", "duration": "2:16" },
+            { "title": "Yours Forever", "duration": "1:41" },
+            { "title": "That Familiar Feeling", "duration": "2:43" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        }
+      ]
     },
-    {
-      "title": "Winter Church Palace",
-      "year": 2013,
-      "art": "WinterChurchPalace.jpg",
-      "tracks": [
-        { "title": "Welcome 2 da Church", "duration": "1:24" },
-        { "title": "Bitch Confesses Yet Again", "duration": "4:38" },
-        { "title": "Sorry4MakingYouFeelSomeTypeOfWay", "duration": "3:45" },
-        { "title": "See You Again Somewhere", "duration": "3:18" },
-        { "title": "Hope He Breaks Ur Heart", "duration": "4:48" },
-        { "title": "Holy Matramony", "duration": "3:05" },
-        { "title": "Car Wash Before Love", "duration": "2:09" },
-        { "title": "All the Small Things", "duration": "1:51" },
-        { "title": "Killa Freestyle in the Back of the Church", "duration": "7:26" },
-        { "title": "You're Free 2 Go", "duration": "2:50" }
-      ],
-      "links": {
-        "spotify": "#",
-        "appleMusic": "#",
-        "soundcloud": "#"
-      }
-    },
-    {
-      "title": "Teenage Identity Crisis",
-      "year": 2014,
-      "art": "TeenageIdentityCrisis.jpg",
-      "tracks": [
-        { "title": "Love You Me", "duration": "3:35" },
-        { "title": "AOL", "duration": "1:01" },
-        { "title": "As Long As I Have You", "duration": "2:53" },
-        { "title": "Dusk", "duration": "0:46" },
-        { "title": "Remember This Forever", "duration": "3:48" },
-        { "title": "Closer Than Ever", "duration": "3:10" },
-        { "title": "Walk Back Home", "duration": "1:16" }
-      ],
-      "links": {
-        "spotify": "#",
-        "appleMusic": "#",
-        "soundcloud": "#"
-      }
-    },
-    {
-      "title": "Can't Sleep",
-      "year": 2014,
-      "art": "CantSleep.jpg",
-      "tracks": [
-        { "title": "Got Some Real Bad News", "duration": "1:37" },
-        { "title": "Said Goodbye at the Place We Met", "duration": "1:27" },
-        { "title": "Ain't That Ironic", "duration": "0:48" },
-        { "title": "Flexxx Pt. 2", "duration": "2:12" },
-        { "title": "Turn Around//Ugly Face!", "duration": "1:42" },
-        { "title": "Baby U Know", "duration": "1:52" }
-      ],
-      "links": {
-        "spotify": "#",
-        "appleMusic": "#",
-        "soundcloud": "#"
-      }
-    },
-    {
-      "title": "F.O.O.L",
-      "year": 2017,
-      "art": "FOOL.jpg",
-      "tracks": [
-        { "title": "Simple Things", "duration": "3:40" },
-        { "title": "Like Red", "duration": "3:27" },
-        { "title": "Away", "duration": "3:17" },
-        { "title": "Memory", "duration": "3:10" },
-        { "title": "Violet", "duration": "3:09" },
-        { "title": "Fragile", "duration": "3:47" },
-        { "title": "Only", "duration": "3:15" },
-        { "title": "Midnight", "duration": "2:44" },
-        { "title": "Last", "duration": "3:23" },
-        { "title": "Modest", "duration": "2:55" },
-        { "title": "Late", "duration": "3:33" },
-        { "title": "Cream", "duration": "3:12" },
-        { "title": "Idle", "duration": "3:38" },
-        { "title": "Butterscotch", "duration": "2:54" }
-      ],
-      "links": {
-        "spotify": "#",
-        "appleMusic": "#",
-        "soundcloud": "#"
-      }
-    },
-    {
-      "title": "Seasons",
-      "year": 2017,
-      "art": "Seasons.jpg",
-      "tracks": [
-        { "title": "Echoes", "duration": "3:28" },
-        { "title": "The Motion", "duration": "2:32" },
-        { "title": "Sunset", "duration": "2:19" },
-        { "title": "It's Not Uncommon", "duration": "2:13" },
-        { "title": "With U", "duration": "2:32" },
-        { "title": "Unforgotten", "duration": "2:24" },
-        { "title": "No Sense", "duration": "2:35" },
-        { "title": "Left Behind", "duration": "2:20" },
-        { "title": "Out of Mind", "duration": "2:03" }
-      ],
-      "links": {
-        "spotify": "#",
-        "appleMusic": "#",
-        "soundcloud": "#"
-      }
-    },
-    {
-      "title": "Somewhere Else (Vol. 1)",
-      "year": 2017,
-      "art": "SomewhereElseVol1.jpg",
-      "tracks": [
-        { "title": "Why So Low", "duration": "2:03" },
-        { "title": "Nine", "duration": "2:34" },
-        { "title": "Royale", "duration": "2:25" },
-        { "title": "Over Here", "duration": "2:34" },
-        { "title": "Dawn", "duration": "2:41" },
-        { "title": "Dusk", "duration": "2:12" },
-        { "title": "Any Other Way", "duration": "2:51" },
-        { "title": "Never", "duration": "2:07" },
-        { "title": "Thursday", "duration": "3:06" },
-        { "title": "Swimming", "duration": "2:33" }
-      ],
-      "links": {
-        "spotify": "#",
-        "appleMusic": "#",
-        "soundcloud": "#"
-      }
-    },
-    {
-      "title": "Halcyon",
-      "year": 2018,
-      "art": "Halcyon.jpg",
-      "tracks": [
-        { "title": "Skylight", "duration": "2:34" },
-        { "title": "Anywhere But Here", "duration": "2:54" },
-        { "title": "Stay With Me", "duration": "3:00" }
-      ],
-      "links": {
-        "spotify": "#",
-        "appleMusic": "#",
-        "soundcloud": "#"
-      }
-    },
-    {
-      "title": "Closure",
-      "year": 2018,
-      "art": "Closure.jpg",
-      "tracks": [
-        { "title": "Closure", "duration": "2:26" },
-        { "title": "Another One", "duration": "1:31" },
-        { "title": "Relief", "duration": "1:50" },
-        { "title": "Remember", "duration": "2:20" },
-        { "title": "Once in a While", "duration": "1:58" }
-      ],
-      "links": {
-        "spotify": "#",
-        "appleMusic": "#",
-        "soundcloud": "#"
-      }
-    },
-    {
-      "title": "For the Long Run",
-      "year": 2019,
-      "art": "ForTheLongRun.jpg",
-      "tracks": [
-        { "title": "Finest", "duration": "1:59" },
-        { "title": "Always on My Mind", "duration": "2:10" },
-        { "title": "Downtown", "duration": "2:16" },
-        { "title": "Higher", "duration": "2:11" },
-        { "title": "Stories", "duration": "2:02" },
-        { "title": "Rainy Night", "duration": "1:57" },
-        { "title": "Resemblance", "duration": "1:57" },
-        { "title": "Not Another Memory", "duration": "2:04" },
-        { "title": "Under the Sea", "duration": "1:41" },
-        { "title": "How It Could Be", "duration": "2:42" },
-        { "title": "Perfect", "duration": "1:42" }
-      ],
-      "links": {
-        "spotify": "#",
-        "appleMusic": "#",
-        "soundcloud": "#"
-      }
-    },
-    {
-      "title": "Black Cherry Avenue",
-      "year": 2020,
-      "art": "BlackCherryAvenue.jpg",
-      "tracks": [
-        { "title": "Black Cherry Avenue", "duration": "1:11" },
-        { "title": "Halfway", "duration": "2:25" },
-        { "title": "Letter From Home", "duration": "1:38" },
-        { "title": "Interlude", "duration": "1:20" },
-        { "title": "Come Over", "duration": "2:08" },
-        { "title": "Same Night", "duration": "2:25" },
-        { "title": "Trying", "duration": "1:46" },
-        { "title": "Yesterday", "duration": "2:21" }
-      ],
-      "links": {
-        "spotify": "#",
-        "appleMusic": "#",
-        "soundcloud": "#"
-      }
-    },
-    {
-      "title": "A Perfect Life Doesn't Leave Heaven Much to Offer",
-      "year": 2021,
-      "art": "APerfectLife.jpg",
-      "tracks": [
-        { "title": "Shades of Red", "duration": "2:13" },
-        { "title": "Clarity", "duration": "1:48" },
-        { "title": "Best Memories", "duration": "2:31" },
-        { "title": "Nothing Lasts Forever", "duration": "2:16" },
-        { "title": "Maybe It's for the Best", "duration": "1:58" },
-        { "title": "A Perfect Life Doesn't Leave Heaven Much to Offer", "duration": "2:06" },
-        { "title": "Heaven", "duration": "3:05" },
-        { "title": "Whatever Tomorrow Brings", "duration": "2:16" },
-        { "title": "Yours Forever", "duration": "1:41" },
-        { "title": "That Familiar Feeling", "duration": "2:43" }
-      ],
-      "links": {
-        "spotify": "#",
-        "appleMusic": "#",
-        "soundcloud": "#"
-      }
-    }
-  ]
-},
     {
       "name": "Cat Soup",
       "path": "CatSoup",
