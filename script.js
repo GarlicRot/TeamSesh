@@ -68,13 +68,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     function updateSelectedArtist(artistName) {
         dropdownButton.textContent = artistName;
         dropdownMenu.classList.remove('show');
-        selectedArtistHeading.textContent = `${artistName}'s Scrolls`;
+        selectedArtistHeading.textContent = `${artistName}'s Albums`;
         dropdownButton.setAttribute('aria-expanded', 'false');
     }
 
     // Display albums for selected artist
     async function displayAlbums(artist) {
-        albumsGrid.innerHTML = '<div class="loading">Loading scrolls...</div>';
+        albumsGrid.innerHTML = '<div class="loading">Loading albums...</div>';
         albumsContainer.classList.add('visible');
 
         try {
