@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     const albumsGrid = document.getElementById('albumsGrid');
     const selectedArtistHeading = document.getElementById('selectedArtist');
 
-    // Toggle dropdown when clicking the button
+    // Add dropdown toggle functionality
     dropdownButton.addEventListener('click', (e) => {
-        e.stopPropagation(); // Prevent event from bubbling up
+        e.stopPropagation();
         const isExpanded = dropdownButton.getAttribute('aria-expanded') === 'true';
         dropdownMenu.classList.toggle('show');
         dropdownButton.setAttribute('aria-expanded', !isExpanded);
