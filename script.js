@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Back to top button functionality
     window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
+      if (window.pageYOffset > 100) {
         backToTopButton.classList.add("visible");
       } else {
         backToTopButton.classList.remove("visible");
