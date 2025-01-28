@@ -2,7 +2,7 @@
     "artists": [
         {
             "name": "BONES",
-            "path": "BONES",
+            "path": "assets/artists/BONES",
             "albums": [
                 {
                     "title": "SoftwareUpdate2.0",
