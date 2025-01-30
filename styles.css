@@ -106,7 +106,7 @@ body {
   padding-left: 24px;
 }
 
-/* Albums Section */
+/* Music Sections */
 .albums-container {
   opacity: 0;
   transform: translateY(20px);
@@ -124,8 +124,34 @@ body {
   font-family: "MedievalSharp", cursive;
   color: var(--gold);
   font-size: 2.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   text-align: center;
+}
+
+.music-section {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-family: "MedievalSharp", cursive;
+  color: var(--gold);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(255, 215, 0, 0.3);
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 2px;
+  background-color: var(--gold);
+  opacity: 0.5;
 }
 
 .albums-grid {
@@ -244,7 +270,7 @@ body {
   font-size: 0.85rem;
 }
 
-/* platform links */
+/* Platform links */
 .platform-links {
   display: flex;
   gap: 12px;
@@ -307,6 +333,7 @@ body {
   visibility: hidden;
   transition: all 0.3s ease;
   z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .back-to-top.visible {
@@ -323,10 +350,7 @@ body {
   transform: translateY(0);
 }
 
-.back-to-top {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
+/* Animations */
 @keyframes dropdownSlide {
   from {
     opacity: 0;
@@ -377,6 +401,18 @@ body {
     width: 35px;
     height: 35px;
   }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+  
+  .section-title::after {
+    width: 80px;
+  }
+  
+  .music-section {
+    margin-bottom: 2.5rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -390,5 +426,17 @@ body {
 
   .selected-artist {
     font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .section-title::after {
+    width: 60px;
+  }
+  
+  .music-section {
+    margin-bottom: 2rem;
   }
 }
