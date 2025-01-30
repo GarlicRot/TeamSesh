@@ -64,14 +64,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Update UI
     updateSelectedArtist(artistName);
-    await displayAlbums(artist);
+    await displayMusic(artist);
   }
 
   // Update selected artist display
   function updateSelectedArtist(artistName) {
     dropdownButton.textContent = artistName;
     dropdownMenu.classList.remove("show");
-    selectedArtistHeading.textContent = `${artistName}'s Albums`;
+    selectedArtistHeading.textContent = artistName;
     dropdownButton.setAttribute("aria-expanded", "false");
   }
 
@@ -96,9 +96,61 @@ document.addEventListener("DOMContentLoaded", async () => {
       .join("");
   }
 
-  // Display albums for selected artist
-  async function displayAlbums(artist) {
-    if (!artist || !artist.albums) {
+  // Create a card for either an album or single
+  function createMusicCard(release, artistPath) {
+    const card = document.createElement("article");
+    card.className = "album-card";
+    card.innerHTML = `
+        <div class="album-art" 
+            style="background-image: url('assets/artists/${artistPath}/${release.art}')"
+            role="img" 
+            aria-label="${release.title} cover">
+        </div>
+        <div class="album-info">
+            <h3 class="album-title">${release.title || "Untitled"}</h3>
+            <p class="album-year">${release.year || "N/A"}</p>
+            <div class="platform-links">
+                ${createPlatformLinks(release.links)}
+            </div>
+        </div>
+        <div class="album-details">
+            ${release.description ? `<p class="album-description">${release.description}</p>` : ""}
+            ${release.tracks ? `
+            <div class="tracklist">
+                <h4 class="tracklist-title">Track List</h4>
+                <ul class="tracklist-items">
+                    ${release.tracks.map(track => `
+                        <li class="track">
+                            <span class="track-title">${track.title}</span>
+                            <span class="track-duration">${track.duration}</span>
+                        </li>
+                    `).join("")}
+                </ul>
+            </div>
+            ` : ""}
+        </div>
+    `;
+
+    // Add expansion functionality
+    card.addEventListener("click", function(e) {
+      if (e.target.closest("a")) return;
+      const wasExpanded = this.classList.contains("expanded");
+      document.querySelectorAll(".album-card.expanded").forEach(card => {
+        card.classList.remove("expanded");
+        card.setAttribute("aria-expanded", "false");
+      });
+      if (!wasExpanded) {
+        this.classList.add("expanded");
+        this.setAttribute("aria-expanded", "true");
+      }
+    });
+
+    return card;
+  }
+
+  // Display music (albums and singles) for selected artist
+  async function displayMusic(artist) {
+    if (!artist) {
       showErrorMessage("Invalid artist data");
       return;
     }
@@ -108,10 +160,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     backToTopButton.className = "back-to-top";
     backToTopButton.setAttribute("aria-label", "Back to top");
     backToTopButton.innerHTML = `
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M18 15l-6-6-6 6"/>
-    </svg>
-  `;
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 15l-6-6-6 6"/>
+      </svg>
+    `;
     document.body.appendChild(backToTopButton);
 
     // Back to top button functionality
@@ -130,113 +182,59 @@ document.addEventListener("DOMContentLoaded", async () => {
       });
     });
 
-    albumsGrid.innerHTML = '<div class="loading">Loading albums...</div>';
+    albumsGrid.innerHTML = '<div class="loading">Loading music...</div>';
     albumsContainer.classList.add("visible");
 
     try {
-      // Clear the grid before adding new albums
+      // Clear the grid before adding new content
       albumsGrid.innerHTML = "";
 
-      // Loop through each album and create its card
-      artist.albums.forEach((album) => {
-        if (!album) return;
-
-        const card = document.createElement("article");
-        card.className = "album-card";
-        card.innerHTML = `
-          <div class="album-art" 
-              style="background-image: url('assets/artists/${artist.path}/${
-          album.art
-        }')"
-              role="img" 
-              aria-label="${album.title} album cover">
-          </div>
-          <div class="album-info">
-              <h3 class="album-title">${album.title || "Untitled"}</h3>
-              <p class="album-year">${album.year || "N/A"}</p>
-              <div class="platform-links">
-                  ${createPlatformLinks(album.links)}
-              </div>
-          </div>
-          <div class="album-details">
-              ${
-                album.description
-                  ? `<p class="album-description">${album.description}</p>`
-                  : ""
-              }
-              ${
-                album.tracks
-                  ? `
-              <div class="tracklist">
-                  <h4 class="tracklist-title">Track List</h4>
-                  <ul class="tracklist-items">
-                      ${album.tracks
-                        .map(
-                          (track) => `
-                          <li class="track">
-                              <span class="track-title">${track.title}</span>
-                              <span class="track-duration">${track.duration}</span>
-                          </li>
-                      `
-                        )
-                        .join("")}
-                  </ul>
-              </div>
-              `
-                  : ""
-              }
-          </div>
+      // Create albums section if there are albums
+      if (artist.albums && artist.albums.length > 0) {
+        const albumsSection = document.createElement('section');
+        albumsSection.className = 'music-section';
+        albumsSection.innerHTML = `
+            <h3 class="section-title">Albums</h3>
+            <div class="albums-grid">
+            </div>
         `;
-
-        // Expansion functionality
-        card.addEventListener("click", function (e) {
-          // Don't trigger expansion on link clicks
-          if (e.target.closest("a")) return;
-
-          const wasExpanded = this.classList.contains("expanded");
-
-          // Close all other cards
-          document.querySelectorAll(".album-card.expanded").forEach((card) => {
-            card.classList.remove("expanded");
-            card.setAttribute("aria-expanded", "false");
-          });
-
-          // Toggle if not already expanded
-          if (!wasExpanded) {
-            this.classList.add("expanded");
-            this.setAttribute("aria-expanded", "true");
-          }
+        const albumsGridElement = albumsSection.querySelector('.albums-grid');
+        
+        // Add album cards
+        artist.albums.forEach(album => {
+          const card = createMusicCard(album, artist.path);
+          albumsGridElement.appendChild(card);
         });
+        
+        albumsGrid.appendChild(albumsSection);
+      }
 
-        // Append the album card to the grid
-        albumsGrid.appendChild(card);
-      });
+      // Create singles section if there are singles
+      if (artist.singles && artist.singles.length > 0) {
+        const singlesSection = document.createElement('section');
+        singlesSection.className = 'music-section';
+        singlesSection.innerHTML = `
+            <h3 class="section-title">Singles</h3>
+            <div class="albums-grid">
+            </div>
+        `;
+        const singlesGridElement = singlesSection.querySelector('.albums-grid');
+        
+        // Add single cards
+        artist.singles.forEach(single => {
+          const card = createMusicCard(single, artist.path);
+          singlesGridElement.appendChild(card);
+        });
+        
+        albumsGrid.appendChild(singlesSection);
+      }
 
-      // Scroll into view after loading albums
+      // Scroll into view after loading
       albumsContainer.scrollIntoView({ behavior: "smooth" });
     } catch (error) {
-      console.error("Error displaying albums:", error);
-      showErrorMessage("Failed to load albums. Please try again.");
+      console.error("Error displaying music:", error);
+      showErrorMessage("Failed to load music. Please try again.");
     }
-  }
-
-  // Create platform links HTML
-  function createPlatformLinks(links) {
-    return Object.entries(links)
-      .map(
-        ([platform, url]) => `
-            <a href="${url}" 
-               class="platform-link" 
-               target="_blank"
-               rel="noopener noreferrer"
-               aria-label="${platform}">
-                <img src="assets/icons/${platform}.svg" 
-                     alt="${platform} icon"
-                     class="platform-icon">
-            </a>
-        `
-      )
-      .join("");
   }
 
   // Error handling
