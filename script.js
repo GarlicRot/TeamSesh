@@ -1,4 +1,3 @@
-// script.js
 document.addEventListener("DOMContentLoaded", async () => {
   // DOM Elements
   const dropdownButton = document.querySelector(".dropdown button.dropbtn");
@@ -48,6 +47,33 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Add event listeners to new artist options
     document.querySelectorAll(".artist-option").forEach((option) => {
       option.addEventListener("click", handleArtistSelection);
+    });
+  }
+
+  // Create sort dropdown
+  function createSortDropdown() {
+    const sortDropdown = document.createElement('select');
+    sortDropdown.className = 'sort-dropdown';
+    sortDropdown.innerHTML = `
+      <option value="year-desc">Year (Newest First)</option>
+      <option value="year-asc">Year (Oldest First)</option>
+      <option value="title-asc">Title (A-Z)</option>
+      <option value="title-desc">Title (Z-A)</option>
+    `;
+    return sortDropdown;
+  }
+
+  // Sort function for albums/singles
+  function sortReleases(releases, sortValue) {
+    const [criterion, direction] = sortValue.split('-');
+    return [...releases].sort((a, b) => {
+      let comparison;
+      if (criterion === 'year') {
+        comparison = a.year - b.year;
+      } else if (criterion === 'title') {
+        comparison = a.title.localeCompare(b.title);
+      }
+      return direction === 'asc' ? comparison : -comparison;
     });
   }
 
@@ -193,14 +219,31 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (artist.albums && artist.albums.length > 0) {
         const albumsSection = document.createElement('section');
         albumsSection.className = 'music-section';
-        albumsSection.innerHTML = `
-            <h3 class="section-title">Albums</h3>
-            <div class="albums-grid">
-            </div>
-        `;
-        const albumsGridElement = albumsSection.querySelector('.albums-grid');
         
-        // Add album cards
+        // Create section header with sort dropdown
+        const sectionHeader = document.createElement('div');
+        sectionHeader.className = 'section-header';
+        const albumSortDropdown = createSortDropdown();
+        sectionHeader.innerHTML = `<h3 class="section-title">Albums</h3>`;
+        sectionHeader.appendChild(albumSortDropdown);
+        
+        albumsSection.appendChild(sectionHeader);
+        
+        const albumsGridElement = document.createElement('div');
+        albumsGridElement.className = 'albums-grid';
+        albumsSection.appendChild(albumsGridElement);
+        
+        // Sort dropdown event listener
+        albumSortDropdown.addEventListener('change', (e) => {
+          const sortedAlbums = sortReleases(artist.albums, e.target.value);
+          albumsGridElement.innerHTML = '';
+          sortedAlbums.forEach(album => {
+            const card = createMusicCard(album, artist.path);
+            albumsGridElement.appendChild(card);
+          });
+        });
+        
+        // Initial display of albums
         artist.albums.forEach(album => {
           const card = createMusicCard(album, artist.path);
           albumsGridElement.appendChild(card);
@@ -213,14 +256,31 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (artist.singles && artist.singles.length > 0) {
         const singlesSection = document.createElement('section');
         singlesSection.className = 'music-section';
-        singlesSection.innerHTML = `
-            <h3 class="section-title">Singles</h3>
-            <div class="albums-grid">
-            </div>
-        `;
-        const singlesGridElement = singlesSection.querySelector('.albums-grid');
         
-        // Add single cards
+        // Create section header with sort dropdown
+        const sectionHeader = document.createElement('div');
+        sectionHeader.className = 'section-header';
+        const singlesSortDropdown = createSortDropdown();
+        sectionHeader.innerHTML = `<h3 class="section-title">Singles</h3>`;
+        sectionHeader.appendChild(singlesSortDropdown);
+        
+        singlesSection.appendChild(sectionHeader);
+        
+        const singlesGridElement = document.createElement('div');
+        singlesGridElement.className = 'albums-grid';
+        singlesSection.appendChild(singlesGridElement);
+        
+        // Sort dropdown event listener
+        singlesSortDropdown.addEventListener('change', (e) => {
+          const sortedSingles = sortReleases(artist.singles, e.target.value);
+          singlesGridElement.innerHTML = '';
+          sortedSingles.forEach(single => {
+            const card = createMusicCard(single, artist.path);
+            singlesGridElement.appendChild(card);
+          });
+        });
+        
+        // Initial display of singles
         artist.singles.forEach(single => {
           const card = createMusicCard(single, artist.path);
           singlesGridElement.appendChild(card);
