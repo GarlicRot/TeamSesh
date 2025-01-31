@@ -244,7 +244,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
         
         // Initial display of albums (newest to oldest)
-        const initialSortedAlbums = sortReleases(artist.albums, 'year-desc');
+        const initialSortedAlbums = sortReleases(artist.albums, 'year-asc');
         initialSortedAlbums.forEach(album => {
           const card = createMusicCard(album, artist.path);
           albumsGridElement.appendChild(card);
@@ -282,7 +282,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
         
         // Initial display of singles (newest to oldest)
-        const initialSortedSingles = sortReleases(artist.singles, 'year-desc');
+        const initialSortedSingles = sortReleases(artist.singles, 'year-asc');
         initialSortedSingles.forEach(single => {
           const card = createMusicCard(single, artist.path);
           singlesGridElement.appendChild(card);
