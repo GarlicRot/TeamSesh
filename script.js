@@ -55,8 +55,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     const sortDropdown = document.createElement('select');
     sortDropdown.className = 'sort-dropdown';
     sortDropdown.innerHTML = `
+      <option value="year-asc" selected>Year (Oldest First)</option>
       <option value="year-desc">Year (Newest First)</option>
-      <option value="year-asc">Year (Oldest First)</option>
       <option value="title-asc">Title (A-Z)</option>
       <option value="title-desc">Title (Z-A)</option>
     `;
@@ -243,8 +243,9 @@ document.addEventListener("DOMContentLoaded", async () => {
           });
         });
         
-        // Initial display of albums
-        artist.albums.forEach(album => {
+        // Initial display of albums (newest to oldest)
+        const initialSortedAlbums = sortReleases(artist.albums, 'year-desc');
+        initialSortedAlbums.forEach(album => {
           const card = createMusicCard(album, artist.path);
           albumsGridElement.appendChild(card);
         });
@@ -280,8 +281,9 @@ document.addEventListener("DOMContentLoaded", async () => {
           });
         });
         
-        // Initial display of singles
-        artist.singles.forEach(single => {
+        // Initial display of singles (newest to oldest)
+        const initialSortedSingles = sortReleases(artist.singles, 'year-desc');
+        initialSortedSingles.forEach(single => {
           const card = createMusicCard(single, artist.path);
           singlesGridElement.appendChild(card);
         });
