@@ -357,6 +357,36 @@ body {
   transform: translateY(0);
 }
 
+/* Section header with sort dropdown */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sort-dropdown {
+  background-color: var(--dark-bg);
+  color: var(--gold);
+  padding: 8px 12px;
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  font-family: "MedievalSharp", cursive;
+  cursor: pointer;
+  outline: none;
+}
+
+.sort-dropdown:hover {
+  background-color: #2a2a2a;
+}
+
+.sort-dropdown option {
+  background-color: var(--dark-bg);
+  color: var(--gold);
+  font-family: "Arial", sans-serif;
+}
+
 /* Animations */
 @keyframes dropdownSlide {
   from {
@@ -419,6 +449,15 @@ body {
   
   .music-section {
     margin-bottom: 2.5rem;
+  }
+
+    .section-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .sort-dropdown {
+    width: 200px;
   }
 }
 
