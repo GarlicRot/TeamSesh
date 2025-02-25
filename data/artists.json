@@ -1,0 +1,1589 @@
+{
+  "artists": [
+    {
+      "name": "BONES",
+      "path": "BONES",
+      "albums": [
+        {
+          "title": "BONES",
+          "year": 2012,
+          "art": "BONES.jpg",
+          "type": "album",
+          "description": "The debut mixtape that started it all. Raw production combined with dark, introspective lyrics establishing the SESH sound.",
+          "tracks": [
+            { "title": "GoldRope", "duration": "1:57" },
+            { "title": "CokeWhiteCaddy", "duration": "1:56" },
+            { "title": "Alizé", "duration": "1:45" },
+            { "title": "Water", "duration": "2:16" },
+            { "title": "WestCoastPlayer", "duration": "2:09" },
+            { "title": "Skeletons", "duration": "1:44" },
+            { "title": "Tangueray", "duration": "1:50" },
+            { "title": "Boneyard", "duration": "1:53" },
+            { "title": "CashedMoneyMillionaires", "duration": "2:09" },
+            { "title": "RolexDiamonds", "duration": "1:58" },
+            { "title": "LightsDown", "duration": "2:33" },
+            { "title": "Bones", "duration": "1:44" },
+            { "title": "Smoke", "duration": "2:19" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "1MillionBlunts",
+          "year": 2012,
+          "art": "1MillionBlunts.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Marble",
+          "year": 2013,
+          "art": "Marble.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "LivingLegend",
+          "year": 2013,
+          "art": "LivingLegend.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Saturn",
+          "year": 2013,
+          "art": "Saturn.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Teenager",
+          "year": 2013,
+          "art": "Teenager.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Creep",
+          "year": 2013,
+          "art": "Creep.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "ダサい",
+          "year": 2013,
+          "art": "ダサい.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Scumbag",
+          "year": 2013,
+          "art": "Scumbag.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Cracker",
+          "year": 2013,
+          "art": "Cracker.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "PaidProgramming",
+          "year": 2013,
+          "art": "PaidProgramming.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "UndergroundGods",
+          "year": 2013,
+          "art": "UndergroundGods.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Caves",
+          "year": 2013,
+          "art": "Caves.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "DeadBoy",
+          "year": 2014,
+          "art": "DeadBoy.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "TeenWitch",
+          "year": 2014,
+          "art": "TeenWitch.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "SeaBeds",
+          "year": 2014,
+          "art": "SeaBeds.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Garbage",
+          "year": 2014,
+          "art": "Garbage.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Skinny",
+          "year": 2014,
+          "art": "Skinny.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Rotten",
+          "year": 2014,
+          "art": "Rotten.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "SongsThatRemindYouOfHome",
+          "year": 2015,
+          "art": "SongsThatRemindYouOfHome.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "SoThereWeStood",
+          "year": 2015,
+          "art": "SoThereWeStood.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Powder",
+          "year": 2015,
+          "art": "Powder.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "YouShouldHaveSeenYourFace",
+          "year": 2015,
+          "art": "YouShouldHaveSeenYourFace.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "HateToBreakItToYou",
+          "year": 2015,
+          "art": "HateToBreakItToYou.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Banshee",
+          "year": 2015,
+          "art": "Banshee.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "HermitOfEastGrandRiver",
+          "year": 2015,
+          "art": "HermitOfEastGrandRiver.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Frayed",
+          "year": 2015,
+          "art": "Frayed.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Slán",
+          "year": 2016,
+          "art": "Slán.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Useless",
+          "year": 2016,
+          "art": "Useless.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "PaidProgramming2",
+          "year": 2016,
+          "art": "PaidProgramming2.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "GoodForNothing",
+          "year": 2016,
+          "art": "GoodForNothing.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "SoftwareUpdate1.0",
+          "year": 2016,
+          "art": "SoftwareUpdate1.0.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Disgrace",
+          "year": 2017,
+          "art": "Disgrace.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Unrendered",
+          "year": 2017,
+          "art": "Unrendered.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "NoRedeemingQualities",
+          "year": 2017,
+          "art": "NoRedeemingQualities.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "NetworkUnknown",
+          "year": 2017,
+          "art": "NetworkUnknown.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Carcass (СКЕЛЕТ)",
+          "year": 2017,
+          "art": "Carcass.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Failure",
+          "year": 2017,
+          "art": "Failure.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Augmented",
+          "year": 2018,
+          "art": "Augmented.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "LivingSucks",
+          "year": 2018,
+          "art": "LivingSucks.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "PermanentFrown",
+          "year": 2018,
+          "art": "PermanentFrown.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "TheManInTheRadiator",
+          "year": 2018,
+          "art": "TheManInTheRadiator.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "SparrowsCreek",
+          "year": 2019,
+          "art": "SparrowsCreek.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "UnderTheWillowTree",
+          "year": 2019,
+          "art": "UnderTheWillowTree.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "KickingTheBucket",
+          "year": 2019,
+          "art": "KickingTheBucket.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "IFeelLikeDirt",
+          "year": 2019,
+          "art": "IFeelLikeDirt.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "OFFLINE",
+          "year": 2020,
+          "art": "OFFLINE.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Brace",
+          "year": 2020,
+          "art": "Brace.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "DamagedGoods",
+          "year": 2020,
+          "art": "DamagedGoods.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "REMAINS",
+          "year": 2020,
+          "art": "REMAINS.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "FromBeyondTheGrave",
+          "year": 2020,
+          "art": "FromBeyondTheGrave.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Burden",
+          "year": 2021,
+          "art": "Burden.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "PushingUpDaisies",
+          "year": 2021,
+          "art": "PushingUpDaisies.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "InLovingMemory",
+          "year": 2021,
+          "art": "InLovingMemory.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "ForbiddenImage",
+          "year": 2021,
+          "art": "ForbiddenImage.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Scraps",
+          "year": 2021,
+          "art": "Scraps.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Withered",
+          "year": 2022,
+          "art": "Withered.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "AmericanSweetheart",
+          "year": 2022,
+          "art": "AmericanSweetheart.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "DreamCard",
+          "year": 2022,
+          "art": "DreamCard.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "2MillionBlunts",
+          "year": 2022,
+          "art": "2MillionBlunts.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "TheWitch&TheWizard",
+          "year": 2023,
+          "art": "TheWitchTheWizard.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "JonesPeak",
+          "year": 2023,
+          "art": "JonesPeak.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "BasketCase",
+          "year": 2023,
+          "art": "BasketCase.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": ".ZIP",
+          "year": 2024,
+          "art": "ZIP.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Champion",
+          "year": 2024,
+          "art": "Champion.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "ModernArchitecture",
+          "year": 2024,
+          "art": "ModernArchitecture.png",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "CADAVER",
+          "year": 2024,
+          "art": "CADAVER.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "SoftwareUpdate2.0",
+          "year": 2024,
+          "art": "SoftwareUpdate2.0.jpg",
+          "type": "album",
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Blanco Billions",
+      "path": "BlancoBillions",
+      "albums": [
+        {
+          "title": "Black, Vol. 1",
+          "year": 2013,
+          "art": "BlackVol1.jpg",
+          "type": "album",
+          "tracks": [
+            { "title": "A Tribute", "duration": "4:39" },
+            { "title": "Diamonds Pressed Up", "duration": "2:24" },
+            { "title": "Oxy", "duration": "2:12" },
+            { "title": "Trillion Feet", "duration": "4:46" },
+            { "title": "Shoot First", "duration": "2:11" },
+            { "title": "Purple Tarzan", "duration": "4:02" },
+            { "title": "Drop Into the Chevy", "duration": "3:07" },
+            { "title": "Fuk Dem Hoe$", "duration": "2:15" },
+            { "title": "Road to Wrestlemania", "duration": "3:29" },
+            { "title": "Main Event", "duration": "2:59" },
+            { "title": "Blastin", "duration": "2:16" },
+            { "title": "Give It Up", "duration": "1:44" },
+            { "title": "666 Business", "duration": "1:55" },
+            { "title": "How I Left Her", "duration": "3:15" },
+            { "title": "Sonic Shuffle Underwater Stage", "duration": "3:45" },
+            { "title": "Undertaker", "duration": "3:27" },
+            { "title": "Black Dimension", "duration": "4:04" },
+            { "title": "Purple Tarzan II", "duration": "1:28" },
+            { "title": "Exit 12:01", "duration": "4:06" },
+            { "title": "Real Trap Shit [bonus track]", "duration": "3:56" },
+            { "title": "Casino Night Zone [bonus track]", "duration": "1:55" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Winter Church Palace",
+          "year": 2013,
+          "art": "WinterChurchPalace.jpg",
+          "type": "album",
+          "tracks": [
+            { "title": "Welcome 2 da Church", "duration": "1:24" },
+            { "title": "Bitch Confesses Yet Again", "duration": "4:38" },
+            { "title": "Sorry4MakingYouFeelSomeTypeOfWay", "duration": "3:45" },
+            { "title": "See You Again Somewhere", "duration": "3:18" },
+            { "title": "Hope He Breaks Ur Heart", "duration": "4:48" },
+            { "title": "Holy Matramony", "duration": "3:05" },
+            { "title": "Car Wash Before Love", "duration": "2:09" },
+            { "title": "All the Small Things", "duration": "1:51" },
+            {
+              "title": "Killa Freestyle in the Back of the Church",
+              "duration": "7:26"
+            },
+            { "title": "You're Free 2 Go", "duration": "2:50" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Teenage Identity Crisis",
+          "year": 2014,
+          "art": "TeenageIdentityCrisis.jpg",
+          "type": "album",
+          "tracks": [
+            { "title": "Love You Me", "duration": "3:35" },
+            { "title": "AOL", "duration": "1:01" },
+            { "title": "As Long As I Have You", "duration": "2:53" },
+            { "title": "Dusk", "duration": "0:46" },
+            { "title": "Remember This Forever", "duration": "3:48" },
+            { "title": "Closer Than Ever", "duration": "3:10" },
+            { "title": "Walk Back Home", "duration": "1:16" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Can't Sleep",
+          "year": 2014,
+          "art": "CantSleep.jpg",
+          "type": "album",
+          "tracks": [
+            { "title": "Got Some Real Bad News", "duration": "1:37" },
+            { "title": "Said Goodbye at the Place We Met", "duration": "1:27" },
+            { "title": "Ain't That Ironic", "duration": "0:48" },
+            { "title": "Flexxx Pt. 2", "duration": "2:12" },
+            { "title": "Turn Around//Ugly Face!", "duration": "1:42" },
+            { "title": "Baby U Know", "duration": "1:52" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "F.O.O.L",
+          "year": 2017,
+          "art": "FOOL.jpg",
+          "type": "album",
+          "tracks": [
+            { "title": "Simple Things", "duration": "3:40" },
+            { "title": "Like Red", "duration": "3:27" },
+            { "title": "Away", "duration": "3:17" },
+            { "title": "Memory", "duration": "3:10" },
+            { "title": "Violet", "duration": "3:09" },
+            { "title": "Fragile", "duration": "3:47" },
+            { "title": "Only", "duration": "3:15" },
+            { "title": "Midnight", "duration": "2:44" },
+            { "title": "Last", "duration": "3:23" },
+            { "title": "Modest", "duration": "2:55" },
+            { "title": "Late", "duration": "3:33" },
+            { "title": "Cream", "duration": "3:12" },
+            { "title": "Idle", "duration": "3:38" },
+            { "title": "Butterscotch", "duration": "2:54" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Seasons",
+          "year": 2017,
+          "art": "Seasons.jpg",
+          "type": "album",
+          "tracks": [
+            { "title": "Echoes", "duration": "3:28" },
+            { "title": "The Motion", "duration": "2:32" },
+            { "title": "Sunset", "duration": "2:19" },
+            { "title": "It's Not Uncommon", "duration": "2:13" },
+            { "title": "With U", "duration": "2:32" },
+            { "title": "Unforgotten", "duration": "2:24" },
+            { "title": "No Sense", "duration": "2:35" },
+            { "title": "Left Behind", "duration": "2:20" },
+            { "title": "Out of Mind", "duration": "2:03" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Somewhere Else (Vol. 1)",
+          "year": 2017,
+          "art": "SomewhereElseVol1.jpg",
+          "type": "album",
+          "tracks": [
+            { "title": "Why So Low", "duration": "2:03" },
+            { "title": "Nine", "duration": "2:34" },
+            { "title": "Royale", "duration": "2:25" },
+            { "title": "Over Here", "duration": "2:34" },
+            { "title": "Dawn", "duration": "2:41" },
+            { "title": "Dusk", "duration": "2:12" },
+            { "title": "Any Other Way", "duration": "2:51" },
+            { "title": "Never", "duration": "2:07" },
+            { "title": "Thursday", "duration": "3:06" },
+            { "title": "Swimming", "duration": "2:33" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Halcyon",
+          "year": 2018,
+          "art": "Halcyon.jpg",
+          "type": "album",
+          "tracks": [
+            { "title": "Skylight", "duration": "2:34" },
+            { "title": "Anywhere But Here", "duration": "2:54" },
+            { "title": "Stay With Me", "duration": "3:00" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Closure",
+          "year": 2018,
+          "art": "Closure.jpg",
+          "type": "album",
+          "tracks": [
+            { "title": "Closure", "duration": "2:26" },
+            { "title": "Another One", "duration": "1:31" },
+            { "title": "Relief", "duration": "1:50" },
+            { "title": "Remember", "duration": "2:20" },
+            { "title": "Once in a While", "duration": "1:58" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "For the Long Run",
+          "year": 2019,
+          "art": "ForTheLongRun.jpg",
+          "type": "album",
+          "tracks": [
+            { "title": "Finest", "duration": "1:59" },
+            { "title": "Always on My Mind", "duration": "2:10" },
+            { "title": "Downtown", "duration": "2:16" },
+            { "title": "Higher", "duration": "2:11" },
+            { "title": "Stories", "duration": "2:02" },
+            { "title": "Rainy Night", "duration": "1:57" },
+            { "title": "Resemblance", "duration": "1:57" },
+            { "title": "Not Another Memory", "duration": "2:04" },
+            { "title": "Under the Sea", "duration": "1:41" },
+            { "title": "How It Could Be", "duration": "2:42" },
+            { "title": "Perfect", "duration": "1:42" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Loose Ends",
+          "year": 2020,
+          "art": "LooseEnds.jpg",
+          "type": "album",
+          "tracks": [
+            { "title": "Matters to You", "duration": "3:33" },
+            {
+              "title": "The Aroma When You Walk Into Home Depot",
+              "duration": "2:14"
+            },
+            { "title": "Since I Met You", "duration": "2:21" },
+            { "title": "Rest of Our Lives", "duration": "2:14" },
+            { "title": "In My Head", "duration": "1:37" },
+            { "title": "Frost", "duration": "1:44" },
+            { "title": "Closer Than This", "duration": "1:59" },
+            { "title": "Clear Days", "duration": "3:04" },
+            { "title": "How Would I Find You", "duration": "3:19" },
+            { "title": "Night and Day", "duration": "2:02" },
+            { "title": "Puffy", "duration": "1:35" },
+            { "title": "With and Without", "duration": "2:03" },
+            {
+              "title": "You Were at the Right Place at the Right Time",
+              "duration": "2:48"
+            },
+            { "title": "Nocturnal", "duration": "2:18" },
+            { "title": "Sorry", "duration": "3:36" },
+            { "title": "Find What You Want", "duration": "2:04" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "Black Cherry Avenue",
+          "year": 2020,
+          "art": "BlackCherryAvenue.jpg",
+          "type": "album",
+          "tracks": [
+            { "title": "Black Cherry Avenue", "duration": "1:11" },
+            { "title": "Halfway", "duration": "2:25" },
+            { "title": "Letter From Home", "duration": "1:38" },
+            { "title": "Interlude", "duration": "1:20" },
+            { "title": "Come Over", "duration": "2:08" },
+            { "title": "Same Night", "duration": "2:25" },
+            { "title": "Trying", "duration": "1:46" },
+            { "title": "Yesterday", "duration": "2:21" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        },
+        {
+          "title": "A Perfect Life Doesn't Leave Heaven Much to Offer",
+          "year": 2021,
+          "art": "APerfectLife.jpg",
+          "type": "album",
+          "tracks": [
+            { "title": "Shades of Red", "duration": "2:13" },
+            { "title": "Clarity", "duration": "1:48" },
+            { "title": "Best Memories", "duration": "2:31" },
+            { "title": "Nothing Lasts Forever", "duration": "2:16" },
+            { "title": "Maybe It's for the Best", "duration": "1:58" },
+            {
+              "title": "A Perfect Life Doesn't Leave Heaven Much to Offer",
+              "duration": "2:06"
+            },
+            { "title": "Heaven", "duration": "3:05" },
+            { "title": "Whatever Tomorrow Brings", "duration": "2:16" },
+            { "title": "Yours Forever", "duration": "1:41" },
+            { "title": "That Familiar Feeling", "duration": "2:43" }
+          ],
+          "links": {
+            "spotify": "#",
+            "appleMusic": "#",
+            "soundcloud": "#"
+          }
+        }
+      ],
+      "singles": [
+        {
+          "title": "Sry",
+          "year": 2017,
+          "art": "Sry.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Sry", "duration": "3:36" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Hope U Know",
+          "year": 2017,
+          "art": "HopeUKnow.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Hope U Know", "duration": "4:29" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "How Would I Find U",
+          "year": 2017,
+          "art": "HowWouldIFindU.jpg",
+          "type": "single",
+          "tracks": [{ "title": "How Would I Find U", "duration": "3:19" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Could Be Mistaken",
+          "year": 2018,
+          "art": "CouldBeMistaken.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Could Be Mistaken", "duration": "2:39" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Since I Met You",
+          "year": 2018,
+          "art": "SinceIMetYou.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Since I Met You", "duration": "2:21" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Somewhere",
+          "year": 2018,
+          "art": "Somewhere.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Somewhere", "duration": "1:31" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "About Time",
+          "year": 2018,
+          "art": "AboutTime.jpg",
+          "type": "single",
+          "tracks": [{ "title": "About Time", "duration": "1:57" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Frost",
+          "year": 2018,
+          "art": "Frost.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Frost", "duration": "1:44" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Midnight at Crystal Camp",
+          "year": 2018,
+          "art": "MidnightAtCrystalCamp.jpg",
+          "type": "single",
+          "tracks": [
+            { "title": "Midnight at Crystal Camp", "duration": "2:55" }
+          ],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Nocturnal",
+          "year": 2018,
+          "art": "Nocturnal.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Nocturnal", "duration": "2:18" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Another Cold Morning",
+          "year": 2018,
+          "art": "AnotherColdMorning.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Another Cold Morning", "duration": "3:01" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Never Wrong",
+          "year": 2018,
+          "art": "NeverWrong.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Never Wrong", "duration": "2:46" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Perfect",
+          "year": 2018,
+          "art": "Perfect.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Perfect", "duration": "1:42" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "How It Could Be",
+          "year": 2018,
+          "art": "HowItCouldBe.jpg",
+          "type": "single",
+          "tracks": [{ "title": "How It Could Be", "duration": "2:48" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Night and Day",
+          "year": 2019,
+          "art": "NightAndDay.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Night and Day", "duration": "2:02" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "NFL 2K5",
+          "year": 2019,
+          "art": "NFL2K5.jpg",
+          "type": "single",
+          "tracks": [{ "title": "NFL 2K5", "duration": "1:51" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Sorry I Was Busy",
+          "year": 2019,
+          "art": "SorryIWasBusy.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Sorry I Was Busy", "duration": "2:30" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Do It for You",
+          "year": 2019,
+          "art": "DoItForYou.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Do It for You", "duration": "3:08" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Mist",
+          "year": 2019,
+          "art": "Mist.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Mist", "duration": "1:54" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "1:00am at Crystal Camp",
+          "year": 2019,
+          "art": "1:00amAtCrystalCamp.jpg",
+          "type": "single",
+          "tracks": [{ "title": "1:00am at Crystal Camp", "duration": "2:29" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Alone in Paradise",
+          "year": 2019,
+          "art": "AloneInParadise.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Alone in Paradise", "duration": "2:13" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Puffy",
+          "year": 2019,
+          "art": "Puffy.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Puffy", "duration": "1:35" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Boyfriend",
+          "year": 2019,
+          "art": "Boyfriend.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Boyfriend", "duration": "2:57" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "With & Without",
+          "year": 2019,
+          "art": "With&Without.jpg",
+          "type": "single",
+          "tracks": [{ "title": "With & Without", "duration": "2:04" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Rest of Our Lives",
+          "year": 2019,
+          "art": "RestOfOurLives.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Rest of Our Lives", "duration": "2:14" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "In My Head",
+          "year": 2019,
+          "art": "InMyHead.jpg",
+          "type": "single",
+          "tracks": [{ "title": "In My Head", "duration": "1:37" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Unknown",
+          "year": 2019,
+          "art": "Unknown.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Unknown", "duration": "2:36" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Slow Motion",
+          "year": 2020,
+          "art": "SlowMotion.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Slow Motion", "duration": "2:39" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "That Familiar Feeling",
+          "year": 2020,
+          "art": "ThatFamiliarFeeling.jpg",
+          "type": "single",
+          "tracks": [{ "title": "That Familiar Feeling", "duration": "2:44" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Let Me Love U",
+          "year": 2020,
+          "art": "LetMeLoveU.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Let Me Love U", "duration": "1:47" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Paradise",
+          "year": 2020,
+          "art": "Paradise.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Paradise", "duration": "2:28" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Not Your Problem Anymore",
+          "year": 2020,
+          "art": "NotYourProblemAnymore.jpg",
+          "type": "single",
+          "tracks": [
+            { "title": "Not Your Problem Anymore", "duration": "1:48" }
+          ],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Omw",
+          "year": 2020,
+          "art": "Omw.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Omw", "duration": "1:56" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Aqua",
+          "year": 2020,
+          "art": "Aqua.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Aqua", "duration": "2:17" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Better Off Here",
+          "year": 2020,
+          "art": "BetterOffHere.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Better Off Here", "duration": "1:49" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Never Coming Down",
+          "year": 2020,
+          "art": "NeverComingDown.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Never Coming Down", "duration": "3:33" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "The Way You See Yourself",
+          "year": 2020,
+          "art": "TheWayYouSeeYourself.jpg",
+          "type": "single",
+          "tracks": [
+            { "title": "The Way You See Yourself", "duration": "2:26" }
+          ],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Everything I Wanted",
+          "year": 2020,
+          "art": "EverythingIWanted.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Everything I Wanted", "duration": "3:10" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Midnight Drive",
+          "year": 2020,
+          "art": "MidnightDrive.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Midnight Drive", "duration": "1:59" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Reminiscence",
+          "year": 2020,
+          "art": "Reminiscence.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Reminiscence", "duration": "2:29" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Far From Here",
+          "year": 2020,
+          "art": "FarFromHere.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Far From Here", "duration": "1:33" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "1:21am",
+          "year": 2020,
+          "art": "1:21am.jpg",
+          "type": "single",
+          "tracks": [{ "title": "1:21am", "duration": "1:12" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Sometimes Luck Runs Out and You Never Make It to the Finish Line",
+          "year": 2020,
+          "art": "SometimesLuckRunsOutAndYouNeverMakeItToTheFinishLine.jpg",
+          "type": "single",
+          "tracks": [
+            {
+              "title": "Sometimes Luck Runs Out and You Never Make It to the Finish Line",
+              "duration": "2:31"
+            }
+          ],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Best Memories",
+          "year": 2021,
+          "art": "BestMemories.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Best Memories", "duration": "2:31" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Someone to Call",
+          "year": 2021,
+          "art": "SomeoneToCall.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Someone to Call", "duration": "2:15" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Nothing Can Compare",
+          "year": 2021,
+          "art": "NothingCanCompare.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Nothing Can Compare", "duration": "2:15" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Transparency",
+          "year": 2021,
+          "art": "Transparency.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Transparency", "duration": "1:59" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Clarity",
+          "year": 2021,
+          "art": "Clarity.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Clarity", "duration": "1:48" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Heaven",
+          "year": 2021,
+          "art": "Heaven.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Heaven", "duration": "3:05" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        },
+        {
+          "title": "Shades of Red",
+          "year": 2021,
+          "art": "ShadesOfRed.jpg",
+          "type": "single",
+          "tracks": [{ "title": "Shades of Red", "duration": "2:13" }],
+          "links": { "spotify": "#", "appleMusic": "#", "soundcloud": "#" }
+        }
+      ]
+    },
+    {
+      "name": "Cat Soup",
+      "path": "CatSoup",
+      "albums": []
+    },
+    {
+      "name": "Drew The Architect",
+      "path": "DrewTheArchitect",
+      "albums": []
+    },
+    {
+      "name": "Drip-133",
+      "path": "Drip133",
+      "albums": []
+    },
+    {
+      "name": "Deergod",
+      "path": "Deergod",
+      "albums": []
+    },
+    {
+      "name": "Ghost//Ghoul",
+      "path": "GhostGhoul",
+      "albums": []
+    },
+    {
+      "name": "Greaf",
+      "path": "Greaf",
+      "albums": []
+    },
+    {
+      "name": "Grayera",
+      "path": "Grayera",
+      "albums": []
+    },
+    {
+      "name": "Hnrk",
+      "path": "Hnrk",
+      "albums": []
+    },
+    {
+      "name": "Kodyak",
+      "path": "Kodyak",
+      "albums": []
+    },
+    {
+      "name": "Lyson",
+      "path": "Lyson",
+      "albums": []
+    },
+    {
+      "name": "Messiah",
+      "path": "Messiah",
+      "albums": []
+    },
+    {
+      "name": "OregonTrail",
+      "path": "OregonTrail",
+      "albums": []
+    },
+    {
+      "name": "Ricky A Go Go",
+      "path": "RickyAGoGo",
+      "albums": []
+    },
+    {
+      "name": "Smitty The BG",
+      "path": "SmittyTheBG",
+      "albums": []
+    },
+    {
+      "name": "Skaleaton",
+      "path": "Skaleaton",
+      "albums": []
+    },
+    {
+      "name": "Surrenderdorothy",
+      "path": "Surrenderdorothy",
+      "albums": []
+    },
+    {
+      "name": "Vegard Veslelia",
+      "path": "VegardVeslelia",
+      "albums": []
+    }
+  ]
+}

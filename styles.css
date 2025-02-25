@@ -1,0 +1,488 @@
+/* styles.css */
+:root {
+  --gold: #ffd700;
+  --dark-bg: #1a1a1a;
+  --darker-bg: #0a0a0a;
+  --text-light: #ffffff;
+  --text-dark: #000000;
+}
+
+body {
+  background-color: var(--darker-bg);
+  color: var(--text-light);
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-size: 4rem;
+  color: var(--gold);
+  text-shadow: 2px 2px 4px rgba(255, 215, 0, 0.5);
+  margin: 0 auto 1rem auto;
+  letter-spacing: 2px;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.title-underline {
+  border-bottom: 3px solid var(--gold);
+  width: 60%;
+  margin: 0 auto 2rem;
+  opacity: 0.7;
+}
+
+/* Dropdown Styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  margin: 2rem auto;
+}
+
+.dropbtn {
+  background-color: var(--dark-bg);
+  color: var(--gold);
+  padding: 16px;
+  font-size: 1.5rem;
+  border: 2px solid var(--gold);
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-family: "MedievalSharp", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.dropbtn:hover {
+  background-color: #2a2a2a;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--dark-bg);
+  width: 100%;
+  border: 2px solid var(--gold);
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  max-height: 60vh;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.dropdown-content.show {
+  display: block !important;
+  animation: dropdownSlide 0.3s ease-out;
+}
+
+.dropdown-content a {
+  color: var(--text-light);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Arial", sans-serif;
+  border-bottom: 1px solid #333;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--gold);
+  color: var(--text-dark);
+  padding-left: 24px;
+}
+
+/* Music Sections */
+.albums-container {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+.albums-container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.selected-artist {
+  font-family: "MedievalSharp", cursive;
+  color: var(--gold);
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.music-section {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-family: "MedievalSharp", cursive;
+  color: var(--gold);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(255, 215, 0, 0.3);
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 2px;
+  background-color: var(--gold);
+  opacity: 0.5;
+}
+
+.albums-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 1rem;
+}
+
+#albumsGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.album-card {
+  background: rgba(255, 215, 0, 0.05);
+  border: 1px solid rgba(255, 215, 0, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.album-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(255, 215, 0, 0.1);
+}
+
+.album-art {
+  width: 100%;
+  height: 300px;
+  background-color: var(--dark-bg);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.album-title {
+  font-family: "MedievalSharp", cursive;
+  color: var(--gold);
+  font-size: 1.4rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.album-year {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.album-card.expanded {
+  transform: scale(1.02);
+  z-index: 10;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+  margin: 1.5rem 0;
+}
+
+.album-details {
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0 1rem;
+}
+
+.album-card.expanded .album-details {
+  max-height: 800px; /* Adjust based on longest content */
+  opacity: 1;
+  padding: 1rem;
+}
+
+.album-description {
+  font-family: "MedievalSharp", cursive;
+  color: #888;
+  line-height: 1.6;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+/* Track list styling */
+.tracklist {
+  margin-top: 1rem;
+  border-top: 1px solid #333;
+  padding-top: 1rem;
+}
+
+.tracklist-title {
+  font-family: "MedievalSharp", cursive;
+  color: #666;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.tracklist-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.track {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #252525;
+}
+
+.track:last-child {
+  border-bottom: none;
+}
+
+.track-title {
+  font-family: "MedievalSharp", cursive;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.track-duration {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+/* Platform links */
+.platform-links {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.platform-link {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.platform-link:hover {
+  transform: scale(1.2);
+}
+
+.platform-link img {
+  width: 100%;
+  height: 100%;
+  filter: invert(0.8);
+}
+
+/* Loading and Error States */
+.loading {
+  color: var(--gold);
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.error-message {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ff4444;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  animation: errorSlide 0.5s ease-out;
+  z-index: 1000;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: var(--gold);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top:hover {
+  background-color: #555;
+  transform: translateY(-3px);
+}
+
+.back-to-top:active {
+  transform: translateY(0);
+}
+
+/* Section header with sort dropdown */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sort-dropdown {
+  background-color: var(--dark-bg);
+  color: var(--gold);
+  padding: 8px 12px;
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  font-family: "MedievalSharp", cursive;
+  cursor: pointer;
+  outline: none;
+}
+
+.sort-dropdown:hover {
+  background-color: #2a2a2a;
+}
+
+.sort-dropdown option {
+  background-color: var(--dark-bg);
+  color: var(--gold);
+  font-family: "Arial", sans-serif;
+}
+
+/* Animations */
+@keyframes dropdownSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes errorSlide {
+  from {
+    top: -50px;
+    opacity: 0;
+  }
+  to {
+    top: 20px;
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .dropdown {
+    width: 90%;
+  }
+
+  .albums-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .album-art {
+    height: 250px;
+  }
+
+  .back-to-top {
+    bottom: 15px;
+    right: 15px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+  
+  .section-title::after {
+    width: 80px;
+  }
+  
+  .music-section {
+    margin-bottom: 2.5rem;
+  }
+
+    .section-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .sort-dropdown {
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .selected-artist {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .section-title::after {
+    width: 60px;
+  }
+  
+  .music-section {
+    margin-bottom: 2rem;
+  }
+}
