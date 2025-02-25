@@ -19,11 +19,11 @@ jobs:
       - name: Create config file
         run: |
           echo "{ \"apiKey\": \"${{ secrets.GOOGLE_API_KEY }}\" }" > config.json
-        env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          git add config.json  # Explicitly stage the file
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
+          force_orphan: true  # Ensures a clean gh-pages branch
